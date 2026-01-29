@@ -124,30 +124,30 @@ body {
     display: block;
 }
 
-.lang-option {
+.language-selector .lang-option {
     display: block;
     padding: 0.75rem 1rem;
-    color: var(--color-text) !important;
+    color: var(--color-text);
     text-decoration: none;
     transition: background-color 0.2s;
     border-bottom: 1px solid #f0f0f0;
 }
 
-.lang-option:last-child {
+.language-selector .lang-option:last-child {
     border-bottom: none;
 }
 
-.lang-option:hover {
+.language-selector .lang-option:hover {
     background-color: var(--color-bg-light);
 }
 
-.lang-option.active {
+.language-selector .lang-option.active {
     background-color: var(--color-primary);
-    color: white !important;
+    color: white;
     font-weight: 600;
 }
 
-.lang-option.active:hover {
+.language-selector .lang-option.active:hover {
     background-color: var(--color-primary-dark);
 }
 
