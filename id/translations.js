@@ -726,5 +726,96 @@ const translations = {
         // Footer
         "footer.copyright": "Bảo lưu mọi quyền.",
         "footer.note": "Chuyên nghiệp · Trung thực · Hiệu quả · Chu đáo"
+    },
+    
+    id: {
+        // Meta
+        "meta.description": "SINODREAM - Konsultan Imigrasi China Profesional, membantu individu luar negeri berimigrasi ke China dengan lancar",
+        "meta.keywords": "imigrasi China, konsultan imigrasi, SINODREAM, individu luar negeri, visa China, tinggal di China",
+        "meta.title": "SINODREAM - Konsultan Imigrasi China Profesional",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Mewujudkan Impian China Anda",
+        "nav.services": "Layanan",
+        "nav.about": "Tentang Kami",
+        "nav.process": "Proses",
+        "nav.contact": "Kontak",
+        
+        // Hero Section
+        "hero.title": "Layanan Konsultan Imigrasi China Profesional",
+        "hero.subtitle": "Membantu Anda Memulai Kehidupan Baru di China dengan Lancar",
+        "hero.description": "SINODREAM adalah agen konsultan imigrasi profesional yang berdedikasi membantu individu luar negeri mewujudkan impian mereka untuk berimigrasi ke China. Kami menyediakan layanan konsultan imigrasi yang komprehensif, mulai dari aplikasi visa hingga izin tinggal, membuat perjalanan imigrasi Anda lancar dan bebas hambatan.",
+        "hero.cta": "Konsultasi Gratis",
+        
+        // Services Section
+        "services.title": "Layanan Kami",
+        "services.work.title": "Visa Kerja",
+        "services.work.description": "Membantu mendapatkan visa kerja China (visa Z) dan izin kerja, memberikan dukungan penuh untuk pekerjaan Anda di China.",
+        "services.permanent.title": "Tinggal Permanen",
+        "services.permanent.description": "Panduan profesional untuk mengajukan status tinggal permanen China (green card), menikmati hak tinggal jangka panjang.",
+        "services.family.title": "Reuni Keluarga",
+        "services.family.description": "Memproses visa tanggungan keluarga dan izin tinggal, memungkinkan seluruh keluarga Anda bersatu di China.",
+        "services.study.title": "Visa Pelajar",
+        "services.study.description": "Membantu mengajukan visa pelajar (visa X), memfasilitasi pendidikan Anda di China.",
+        "services.business.title": "Visa Bisnis",
+        "services.business.description": "Pemrosesan cepat visa bisnis (visa M), nyaman untuk aktivitas bisnis Anda di China.",
+        "services.extension.title": "Perpanjangan Tinggal",
+        "services.extension.description": "Menyediakan layanan perpanjangan izin tinggal, memastikan status tinggal legal Anda di China tidak terputus.",
+        
+        // About Section
+        "about.title": "Mengapa Memilih Kami",
+        "about.professional.title": "✓ Tim Profesional",
+        "about.professional.description": "Kami memiliki konsultan imigrasi senior dan ahli hukum yang memahami kebijakan dan peraturan imigrasi China dengan baik.",
+        "about.success.title": "✓ Tingkat Keberhasilan Tinggi",
+        "about.success.description": "Pengalaman bertahun-tahun yang terakumulasi, berhasil membantu ratusan klien mewujudkan impian mereka untuk berimigrasi ke China.",
+        "about.service.title": "✓ Layanan Lengkap",
+        "about.service.description": "Dari konsultasi dan penilaian hingga persetujuan visa, kami menyediakan layanan satu atap dan melacak kemajuan pemrosesan di sepanjang proses.",
+        "about.integrity.title": "✓ Kejujuran dan Transparansi",
+        "about.integrity.description": "Biaya yang transparan dan wajar, tanpa biaya tersembunyi, bisnis yang jujur memenangkan kepercayaan pelanggan.",
+        
+        // Process Section
+        "process.title": "Proses Aplikasi",
+        "process.step1.title": "Konsultasi Gratis",
+        "process.step1.description": "Hubungi kami untuk konsultasi gratis guna menilai kebutuhan imigrasi dan kelayakan Anda.",
+        "process.step2.title": "Rencana Khusus",
+        "process.step2.description": "Berdasarkan situasi spesifik Anda, kami mengembangkan rencana imigrasi yang dipersonalisasi.",
+        "process.step3.title": "Persiapan Dokumen",
+        "process.step3.description": "Membimbing Anda dalam mempersiapkan dokumen yang diperlukan, memastikan semua file lengkap dan memenuhi persyaratan.",
+        "process.step4.title": "Mengajukan Aplikasi",
+        "process.step4.description": "Mengajukan materi aplikasi atas nama Anda dan melacak kemajuan pemrosesan.",
+        "process.step5.title": "Persetujuan Berhasil",
+        "process.step5.description": "Mendapatkan visa atau izin tinggal, dan memulai kehidupan baru Anda di China.",
+        
+        // Contact Section
+        "contact.title": "Hubungi Kami",
+        "contact.subtitle": "Hubungi kami sekarang dan mulai perjalanan imigrasi Anda",
+        "contact.info.title": "Informasi Kontak",
+        "contact.info.email": "Email:",
+        "contact.info.phone": "Telepon:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Jam Kerja:",
+        "contact.info.hours.value": "Senin sampai Jumat 9:00-18:00",
+        "contact.form.title": "Konsultasi Online",
+        "contact.form.name": "Nama *",
+        "contact.form.email": "Email *",
+        "contact.form.phone": "Telepon",
+        "contact.form.service": "Layanan yang Diminati",
+        "contact.form.service.placeholder": "Silakan pilih",
+        "contact.form.service.work": "Visa Kerja",
+        "contact.form.service.permanent": "Tinggal Permanen",
+        "contact.form.service.family": "Reuni Keluarga",
+        "contact.form.service.study": "Visa Pelajar",
+        "contact.form.service.business": "Visa Bisnis",
+        "contact.form.service.extension": "Perpanjangan Tinggal",
+        "contact.form.service.other": "Lainnya",
+        "contact.form.message": "Pesan *",
+        "contact.form.submit": "Kirim Pertanyaan",
+        "contact.form.submitting": "Mengirim...",
+        "contact.form.success": "Terima kasih atas pertanyaan Anda! Tim kami akan menghubungi Anda dalam 24 jam.",
+        
+        // Footer
+        "footer.copyright": "Hak cipta dilindungi.",
+        "footer.note": "Profesional · Jujur · Efisien · Peduli"
     }
 };
