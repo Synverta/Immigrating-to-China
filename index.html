@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SINODREAM - 专业的中国移民咨询机构，帮助海外人士顺利移民中国">
-    <meta name="keywords" content="中国移民, 移民咨询, SINODREAM, 海外人士, 中国签证, 中国居留">
-    <title>SINODREAM - 专业中国移民咨询</title>
+    <meta name="description" content="SINODREAM - Professional China Immigration Consulting Agency, helping overseas individuals immigrate to China smoothly">
+    <meta name="keywords" content="China immigration, immigration consulting, SINODREAM, overseas individuals, China visa, China residence">
+    <title>SINODREAM - Professional China Immigration Consulting</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,14 +13,29 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <h1>SINODREAM</h1>
-                <p class="tagline">圆您的中国梦</p>
+                <h1 data-i18n="header.logo">SINODREAM</h1>
+                <p class="tagline" data-i18n="header.tagline">Making Your China Dream Come True</p>
             </div>
             <nav class="nav">
-                <a href="#services">服务项目</a>
-                <a href="#about">关于我们</a>
-                <a href="#process">办理流程</a>
-                <a href="#contact">联系我们</a>
+                <a href="#services" data-i18n="nav.services">Services</a>
+                <a href="#about" data-i18n="nav.about">About Us</a>
+                <a href="#process" data-i18n="nav.process">Process</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+                <div class="language-selector">
+                    <button id="langToggle" class="lang-toggle" aria-label="Select Language" aria-haspopup="true" aria-expanded="false">
+                        <span id="currentLang">English</span>
+                        <span class="lang-arrow">▼</span>
+                    </button>
+                    <div id="langDropdown" class="lang-dropdown" role="menu">
+                        <a href="#" class="lang-option active" data-lang="en" role="menuitem">English</a>
+                        <a href="#" class="lang-option" data-lang="zh" role="menuitem">中文</a>
+                        <a href="#" class="lang-option" data-lang="es" role="menuitem">Español</a>
+                        <a href="#" class="lang-option" data-lang="fr" role="menuitem">Français</a>
+                        <a href="#" class="lang-option" data-lang="ar" role="menuitem">العربية</a>
+                        <a href="#" class="lang-option" data-lang="ru" role="menuitem">Русский</a>
+                        <a href="#" class="lang-option" data-lang="ja" role="menuitem">日本語</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -29,13 +44,12 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2>专业的中国移民咨询服务</h2>
-                <p class="hero-subtitle">助您顺利开启中国新生活</p>
-                <p class="hero-description">
-                    SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实现移民中国的梦想。
-                    我们提供全方位的移民咨询服务，从签证申请到居留许可，让您的移民之路畅通无阻。
+                <h2 data-i18n="hero.title">Professional China Immigration Consulting Services</h2>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">Help You Start Your New Life in China Smoothly</p>
+                <p class="hero-description" data-i18n="hero.description">
+                    SINODREAM is a professional immigration consulting agency dedicated to helping overseas individuals realize their dream of immigrating to China. We provide comprehensive immigration consulting services, from visa applications to residence permits, making your immigration journey smooth and hassle-free.
                 </p>
-                <a href="#contact" class="cta-button">免费咨询</a>
+                <a href="#contact" class="cta-button" data-i18n="hero.cta">Free Consultation</a>
             </div>
         </div>
     </section>
@@ -43,37 +57,37 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">我们的服务</h2>
+            <h2 class="section-title" data-i18n="services.title">Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🛂</div>
-                    <h3>工作签证</h3>
-                    <p>协助办理中国工作签证（Z签证）及工作许可证，为您在华就业提供全程支持。</p>
+                    <h3 data-i18n="services.work.title">Work Visa</h3>
+                    <p data-i18n="services.work.description">Assist in obtaining China work visa (Z visa) and work permit, providing full support for your employment in China.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🏠</div>
-                    <h3>永久居留</h3>
-                    <p>专业指导申请中国永久居留身份（绿卡），享受长期居留权益。</p>
+                    <h3 data-i18n="services.permanent.title">Permanent Residence</h3>
+                    <p data-i18n="services.permanent.description">Professional guidance for applying for China permanent residence status (green card), enjoying long-term residence rights.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">👨‍👩‍👧</div>
-                    <h3>家庭团聚</h3>
-                    <p>办理家属随迁签证和居留许可，让全家人在中国团聚。</p>
+                    <h3 data-i18n="services.family.title">Family Reunion</h3>
+                    <p data-i18n="services.family.description">Process family dependent visas and residence permits, allowing your whole family to reunite in China.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🎓</div>
-                    <h3>学习签证</h3>
-                    <p>协助申请留学签证（X签证），为在华求学提供便利。</p>
+                    <h3 data-i18n="services.study.title">Study Visa</h3>
+                    <p data-i18n="services.study.description">Assist in applying for study visa (X visa), facilitating your education in China.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">💼</div>
-                    <h3>商务签证</h3>
-                    <p>快速办理商务签证（M签证），方便您在中国开展商务活动。</p>
+                    <h3 data-i18n="services.business.title">Business Visa</h3>
+                    <p data-i18n="services.business.description">Fast processing of business visa (M visa), convenient for your business activities in China.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">📋</div>
-                    <h3>居留延期</h3>
-                    <p>提供居留许可延期服务，确保您在华合法居留身份不间断。</p>
+                    <h3 data-i18n="services.extension.title">Residence Extension</h3>
+                    <p data-i18n="services.extension.description">Provide residence permit extension services, ensuring your legal residence status in China is uninterrupted.</p>
                 </div>
             </div>
         </div>
@@ -82,23 +96,23 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">为什么选择我们</h2>
+            <h2 class="section-title" data-i18n="about.title">Why Choose Us</h2>
             <div class="about-grid">
                 <div class="about-card">
-                    <h3>✓ 专业团队</h3>
-                    <p>拥有资深移民顾问和法律专家，深谙中国移民政策和法规。</p>
+                    <h3 data-i18n="about.professional.title">✓ Professional Team</h3>
+                    <p data-i18n="about.professional.description">We have senior immigration consultants and legal experts who are well-versed in China's immigration policies and regulations.</p>
                 </div>
                 <div class="about-card">
-                    <h3>✓ 成功率高</h3>
-                    <p>多年经验积累，成功帮助数百位客户实现移民中国的梦想。</p>
+                    <h3 data-i18n="about.success.title">✓ High Success Rate</h3>
+                    <p data-i18n="about.success.description">Years of experience accumulated, successfully helping hundreds of clients realize their dream of immigrating to China.</p>
                 </div>
                 <div class="about-card">
-                    <h3>✓ 全程服务</h3>
-                    <p>从咨询评估到签证获批，提供一站式服务，全程跟踪办理进度。</p>
+                    <h3 data-i18n="about.service.title">✓ Full Service</h3>
+                    <p data-i18n="about.service.description">From consultation and assessment to visa approval, we provide one-stop service and track the processing progress throughout.</p>
                 </div>
                 <div class="about-card">
-                    <h3>✓ 诚信透明</h3>
-                    <p>收费透明合理，无隐性费用，诚信经营赢得客户信赖。</p>
+                    <h3 data-i18n="about.integrity.title">✓ Honesty and Transparency</h3>
+                    <p data-i18n="about.integrity.description">Transparent and reasonable fees, no hidden charges, honest business wins customer trust.</p>
                 </div>
             </div>
         </div>
@@ -107,32 +121,32 @@
     <!-- Process Section -->
     <section id="process" class="process">
         <div class="container">
-            <h2 class="section-title">办理流程</h2>
+            <h2 class="section-title" data-i18n="process.title">Application Process</h2>
             <div class="process-steps">
                 <div class="step">
                     <div class="step-number">1</div>
-                    <h3>免费咨询</h3>
-                    <p>联系我们进行免费咨询，评估您的移民需求和资格。</p>
+                    <h3 data-i18n="process.step1.title">Free Consultation</h3>
+                    <p data-i18n="process.step1.description">Contact us for a free consultation to assess your immigration needs and eligibility.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <h3>方案定制</h3>
-                    <p>根据您的具体情况，制定个性化的移民方案。</p>
+                    <h3 data-i18n="process.step2.title">Customized Plan</h3>
+                    <p data-i18n="process.step2.description">Based on your specific situation, we develop a personalized immigration plan.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <h3>材料准备</h3>
-                    <p>指导您准备所需材料，确保文件齐全符合要求。</p>
+                    <h3 data-i18n="process.step3.title">Document Preparation</h3>
+                    <p data-i18n="process.step3.description">Guide you in preparing required documents, ensuring all files are complete and meet requirements.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
-                    <h3>递交申请</h3>
-                    <p>代为递交申请材料，跟踪办理进度。</p>
+                    <h3 data-i18n="process.step4.title">Submit Application</h3>
+                    <p data-i18n="process.step4.description">Submit application materials on your behalf and track processing progress.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">5</div>
-                    <h3>成功获批</h3>
-                    <p>获得签证或居留许可，开启您的中国新生活。</p>
+                    <h3 data-i18n="process.step5.title">Successful Approval</h3>
+                    <p data-i18n="process.step5.description">Obtain visa or residence permit, and start your new life in China.</p>
                 </div>
             </div>
         </div>
@@ -141,61 +155,61 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">联系我们</h2>
-            <p class="contact-subtitle">立即联系我们，开始您的移民之旅</p>
+            <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
+            <p class="contact-subtitle" data-i18n="contact.subtitle">Contact us now and start your immigration journey</p>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>联系方式</h3>
+                    <h3 data-i18n="contact.info.title">Contact Information</h3>
                     <div class="info-item">
-                        <strong>📧 邮箱：</strong>
+                        <strong>📧 <span data-i18n="contact.info.email">Email:</span></strong>
                         <a href="mailto:info@sinodream.com">info@sinodream.com</a>
                     </div>
                     <div class="info-item">
-                        <strong>📱 电话：</strong>
+                        <strong>📱 <span data-i18n="contact.info.phone">Phone:</span></strong>
                         <a href="tel:+8621-12345678">+86 21-1234-5678</a>
                     </div>
                     <div class="info-item">
-                        <strong>💬 微信：</strong>
+                        <strong>💬 <span data-i18n="contact.info.wechat">WeChat:</span></strong>
                         SINODREAM2024
                     </div>
                     <div class="info-item">
-                        <strong>🕐 工作时间：</strong>
-                        周一至周五 9:00-18:00
+                        <strong>🕐 <span data-i18n="contact.info.hours">Business Hours:</span></strong>
+                        <span data-i18n="contact.info.hours.value">Monday to Friday 9:00-18:00</span>
                     </div>
                 </div>
                 <div class="contact-form-container">
-                    <h3>在线咨询</h3>
+                    <h3 data-i18n="contact.form.title">Online Consultation</h3>
                     <form id="contactForm" class="contact-form">
                         <div class="form-group">
-                            <label for="name">姓名 *</label>
+                            <label for="name" data-i18n="contact.form.name">Name *</label>
                             <input type="text" id="name" name="name" required maxlength="50">
                         </div>
                         <div class="form-group">
-                            <label for="email">邮箱 *</label>
+                            <label for="email" data-i18n="contact.form.email">Email *</label>
                             <input type="email" id="email" name="email" required maxlength="100">
                         </div>
                         <div class="form-group">
-                            <label for="phone">电话</label>
+                            <label for="phone" data-i18n="contact.form.phone">Phone</label>
                             <input type="tel" id="phone" name="phone" maxlength="20">
                         </div>
                         <div class="form-group">
-                            <label for="service">感兴趣的服务</label>
+                            <label for="service" data-i18n="contact.form.service">Service of Interest</label>
                             <select id="service" name="service">
-                                <option value="">请选择</option>
-                                <option value="work">工作签证</option>
-                                <option value="permanent">永久居留</option>
-                                <option value="family">家庭团聚</option>
-                                <option value="study">学习签证</option>
-                                <option value="business">商务签证</option>
-                                <option value="extension">居留延期</option>
-                                <option value="other">其他</option>
+                                <option value="" data-i18n="contact.form.service.placeholder">Please select</option>
+                                <option value="work" data-i18n="contact.form.service.work">Work Visa</option>
+                                <option value="permanent" data-i18n="contact.form.service.permanent">Permanent Residence</option>
+                                <option value="family" data-i18n="contact.form.service.family">Family Reunion</option>
+                                <option value="study" data-i18n="contact.form.service.study">Study Visa</option>
+                                <option value="business" data-i18n="contact.form.service.business">Business Visa</option>
+                                <option value="extension" data-i18n="contact.form.service.extension">Residence Extension</option>
+                                <option value="other" data-i18n="contact.form.service.other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">留言 *</label>
+                            <label for="message" data-i18n="contact.form.message">Message *</label>
                             <textarea id="message" name="message" rows="5" required maxlength="500"></textarea>
                         </div>
-                        <button type="submit" class="submit-button">提交咨询</button>
+                        <button type="submit" class="submit-button" data-i18n="contact.form.submit">Submit Inquiry</button>
                     </form>
                     <div id="formMessage" class="form-message"></div>
                 </div>
@@ -206,11 +220,13 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> SINODREAM. 保留所有权利。</p>
-            <p class="footer-note">专业 · 诚信 · 高效 · 贴心</p>
+            <p>&copy; <span id="currentYear"></span> SINODREAM. <span data-i18n="footer.copyright">All rights reserved.</span></p>
+            <p class="footer-note" data-i18n="footer.note">Professional · Honest · Efficient · Caring</p>
         </div>
     </footer>
 
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
