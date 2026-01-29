@@ -13,6 +13,8 @@ const translations = {
         "nav.about": "About Us",
         "nav.process": "Process",
         "nav.contact": "Contact",
+        "nav.case": "Case",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Professional China Immigration Consulting Services",
@@ -104,6 +106,8 @@ const translations = {
         "nav.about": "关于我们",
         "nav.process": "办理流程",
         "nav.contact": "联系我们",
+        "nav.case": "案例",
+        "nav.blog": "博客",
         
         // Hero Section
         "hero.title": "专业的中国移民咨询服务",
@@ -195,6 +199,8 @@ const translations = {
         "nav.about": "Sobre Nosotros",
         "nav.process": "Proceso",
         "nav.contact": "Contacto",
+        "nav.case": "Caso",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Servicios Profesionales de Consultoría de Inmigración a China",
@@ -286,6 +292,8 @@ const translations = {
         "nav.about": "À Propos",
         "nav.process": "Processus",
         "nav.contact": "Contact",
+        "nav.case": "Cas",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Services Professionnels de Conseil en Immigration en Chine",
@@ -377,6 +385,8 @@ const translations = {
         "nav.about": "من نحن",
         "nav.process": "الإجراءات",
         "nav.contact": "اتصل بنا",
+        "nav.case": "الحالة",
+        "nav.blog": "المدونة",
         
         // Hero Section
         "hero.title": "خدمات استشارات الهجرة المهنية إلى الصين",
@@ -468,6 +478,8 @@ const translations = {
         "nav.about": "О Нас",
         "nav.process": "Процесс",
         "nav.contact": "Контакты",
+        "nav.case": "Кейсы",
+        "nav.blog": "Блог",
         
         // Hero Section
         "hero.title": "Профессиональные консультационные услуги по иммиграции в Китай",
@@ -559,6 +571,8 @@ const translations = {
         "nav.about": "会社概要",
         "nav.process": "プロセス",
         "nav.contact": "お問い合わせ",
+        "nav.case": "ケース",
+        "nav.blog": "ブログ",
         
         // Hero Section
         "hero.title": "専門的な中国移民コンサルティングサービス",
@@ -650,6 +664,8 @@ const translations = {
         "nav.about": "Về Chúng tôi",
         "nav.process": "Quy trình",
         "nav.contact": "Liên hệ",
+        "nav.case": "Trường hợp",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Dịch vụ Tư vấn Di trú Trung Quốc Chuyên nghiệp",
