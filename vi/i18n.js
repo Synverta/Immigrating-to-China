@@ -121,7 +121,8 @@ class I18n {
                 'fr': 'Français',
                 'ar': 'العربية',
                 'ru': 'Русский',
-                'ja': '日本語'
+                'ja': '日本語',
+                'vi': 'Tiếng Việt'
             };
             currentLangDisplay.textContent = langNames[this.currentLanguage] || 'Language';
         }

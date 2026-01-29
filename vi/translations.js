@@ -635,5 +635,96 @@ const translations = {
         // Footer
         "footer.copyright": "全著作権所有。",
         "footer.note": "専門的 · 誠実 · 効率的 · 思いやり"
+    },
+    
+    vi: {
+        // Meta
+        "meta.description": "SINODREAM - Công ty Tư vấn Di trú Trung Quốc Chuyên nghiệp, giúp người nước ngoài di cư đến Trung Quốc thuận lợi",
+        "meta.keywords": "di trú Trung Quốc, tư vấn di trú, SINODREAM, người nước ngoài, visa Trung Quốc, cư trú Trung Quốc",
+        "meta.title": "SINODREAM - Tư vấn Di trú Trung Quốc Chuyên nghiệp",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Biến Giấc mơ Trung Quốc của Bạn Thành Hiện thực",
+        "nav.services": "Dịch vụ",
+        "nav.about": "Về Chúng tôi",
+        "nav.process": "Quy trình",
+        "nav.contact": "Liên hệ",
+        
+        // Hero Section
+        "hero.title": "Dịch vụ Tư vấn Di trú Trung Quốc Chuyên nghiệp",
+        "hero.subtitle": "Giúp Bạn Bắt đầu Cuộc sống Mới tại Trung Quốc một cách Thuận lợi",
+        "hero.description": "SINODREAM là công ty tư vấn di trú chuyên nghiệp, tận tâm giúp đỡ người nước ngoài thực hiện ước mơ di cư đến Trung Quốc. Chúng tôi cung cấp dịch vụ tư vấn di trú toàn diện, từ đơn xin visa đến giấy phép cư trú, làm cho hành trình di cư của bạn suôn sẻ và không gặp rắc rối.",
+        "hero.cta": "Tư vấn Miễn phí",
+        
+        // Services Section
+        "services.title": "Dịch vụ của Chúng tôi",
+        "services.work.title": "Visa Lao động",
+        "services.work.description": "Hỗ trợ xin visa lao động Trung Quốc (visa Z) và giấy phép lao động, cung cấp hỗ trợ toàn diện cho công việc của bạn tại Trung Quốc.",
+        "services.permanent.title": "Thường trú Nhân",
+        "services.permanent.description": "Hướng dẫn chuyên nghiệp để nộp đơn xin tư cách thường trú nhân Trung Quốc (thẻ xanh), hưởng quyền cư trú dài hạn.",
+        "services.family.title": "Đoàn tụ Gia đình",
+        "services.family.description": "Xử lý visa phụ thuộc gia đình và giấy phép cư trú, cho phép cả gia đình bạn đoàn tụ tại Trung Quốc.",
+        "services.study.title": "Visa Du học",
+        "services.study.description": "Hỗ trợ nộp đơn xin visa du học (visa X), tạo điều kiện cho việc học tập của bạn tại Trung Quốc.",
+        "services.business.title": "Visa Kinh doanh",
+        "services.business.description": "Xử lý nhanh visa kinh doanh (visa M), thuận tiện cho các hoạt động kinh doanh của bạn tại Trung Quốc.",
+        "services.extension.title": "Gia hạn Cư trú",
+        "services.extension.description": "Cung cấp dịch vụ gia hạn giấy phép cư trú, đảm bảo tình trạng cư trú hợp pháp của bạn tại Trung Quốc không bị gián đoạn.",
+        
+        // About Section
+        "about.title": "Tại sao Chọn Chúng tôi",
+        "about.professional.title": "✓ Đội ngũ Chuyên nghiệp",
+        "about.professional.description": "Chúng tôi có các chuyên gia tư vấn di trú cao cấp và chuyên gia pháp lý am hiểu chính sách và quy định di trú của Trung Quốc.",
+        "about.success.title": "✓ Tỷ lệ Thành công Cao",
+        "about.success.description": "Nhiều năm kinh nghiệm tích lũy, thành công giúp đỡ hàng trăm khách hàng thực hiện ước mơ di cư đến Trung Quốc.",
+        "about.service.title": "✓ Dịch vụ Đầy đủ",
+        "about.service.description": "Từ tư vấn và đánh giá đến phê duyệt visa, chúng tôi cung cấp dịch vụ một cửa và theo dõi tiến trình xử lý trong suốt quá trình.",
+        "about.integrity.title": "✓ Trung thực và Minh bạch",
+        "about.integrity.description": "Chi phí minh bạch và hợp lý, không có phí ẩn, kinh doanh trung thực giành được lòng tin của khách hàng.",
+        
+        // Process Section
+        "process.title": "Quy trình Nộp đơn",
+        "process.step1.title": "Tư vấn Miễn phí",
+        "process.step1.description": "Liên hệ với chúng tôi để được tư vấn miễn phí nhằm đánh giá nhu cầu di trú và điều kiện đủ tiêu chuẩn của bạn.",
+        "process.step2.title": "Kế hoạch Tùy chỉnh",
+        "process.step2.description": "Dựa trên tình hình cụ thể của bạn, chúng tôi xây dựng kế hoạch di trú cá nhân hóa.",
+        "process.step3.title": "Chuẩn bị Tài liệu",
+        "process.step3.description": "Hướng dẫn bạn chuẩn bị các tài liệu cần thiết, đảm bảo tất cả các tệp hoàn chỉnh và đáp ứng yêu cầu.",
+        "process.step4.title": "Nộp Đơn",
+        "process.step4.description": "Nộp tài liệu đơn thay mặt bạn và theo dõi tiến trình xử lý.",
+        "process.step5.title": "Phê duyệt Thành công",
+        "process.step5.description": "Nhận visa hoặc giấy phép cư trú, và bắt đầu cuộc sống mới của bạn tại Trung Quốc.",
+        
+        // Contact Section
+        "contact.title": "Liên hệ với Chúng tôi",
+        "contact.subtitle": "Liên hệ với chúng tôi ngay bây giờ và bắt đầu hành trình di cư của bạn",
+        "contact.info.title": "Thông tin Liên hệ",
+        "contact.info.email": "Email:",
+        "contact.info.phone": "Điện thoại:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Giờ Làm việc:",
+        "contact.info.hours.value": "Thứ Hai đến Thứ Sáu 9:00-18:00",
+        "contact.form.title": "Tư vấn Trực tuyến",
+        "contact.form.name": "Tên *",
+        "contact.form.email": "Email *",
+        "contact.form.phone": "Điện thoại",
+        "contact.form.service": "Dịch vụ Quan tâm",
+        "contact.form.service.placeholder": "Vui lòng chọn",
+        "contact.form.service.work": "Visa Lao động",
+        "contact.form.service.permanent": "Thường trú Nhân",
+        "contact.form.service.family": "Đoàn tụ Gia đình",
+        "contact.form.service.study": "Visa Du học",
+        "contact.form.service.business": "Visa Kinh doanh",
+        "contact.form.service.extension": "Gia hạn Cư trú",
+        "contact.form.service.other": "Khác",
+        "contact.form.message": "Tin nhắn *",
+        "contact.form.submit": "Gửi Yêu cầu",
+        "contact.form.submitting": "Đang gửi...",
+        "contact.form.success": "Cảm ơn bạn đã liên hệ! Đội ngũ của chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ.",
+        
+        // Footer
+        "footer.copyright": "Bảo lưu mọi quyền.",
+        "footer.note": "Chuyên nghiệp · Trung thực · Hiệu quả · Chu đáo"
     }
 };
