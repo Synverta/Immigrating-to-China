@@ -122,11 +122,7 @@ class I18n {
                 'ar': 'العربية',
                 'ru': 'Русский',
                 'ja': '日本語',
-                'vi': 'Tiếng Việt',
-                'th': 'ภาษาไทย',
-                'ko': '한국어',
-                'id': 'Bahasa Indonesia',
-                'ms': 'Bahasa Melayu'
+                'vi': 'Tiếng Việt'
             };
             currentLangDisplay.textContent = langNames[this.currentLanguage] || 'Language';
         }

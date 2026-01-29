@@ -29,7 +29,7 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 
 ## 多语言支持
 
-本网站支持10种语言，每种语言都有独立的页面以提升SEO效果：
+本网站支持12种语言，每种语言都有独立的页面以提升SEO效果：
 
 - **English (英语)**: `/index.html` - 默认语言
 - **中文**: `/zh/index.html`
@@ -41,6 +41,8 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 - **Tiếng Việt (越南语)**: `/vi/index.html`
 - **ภาษาไทย (泰语)**: `/th/index.html`
 - **한국어 (韩语)**: `/ko/index.html`
+- **Bahasa Indonesia (印尼语)**: `/id/index.html`
+- **Bahasa Melayu (马来语)**: `/ms/index.html`
 
 ### SEO优化特性
 
@@ -83,7 +85,9 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 ├── ja/                    # 日语版本
 ├── vi/                    # 越南语版本
 ├── th/                    # 泰语版本
-└── ko/                    # 韩语版本
+├── ko/                    # 韩语版本
+├── id/                    # 印尼语版本
+└── ms/                    # 马来语版本
 ```
 
 ## 联系我们
