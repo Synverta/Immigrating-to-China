@@ -82,7 +82,7 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 
 ## 联系我们
 
-- 📧 邮箱：info@sinodream.com
+- 📧 邮箱：sinodream@proton.me
 - 📱 电话：+86 21-1234-5678
 - 💬 微信：SINODREAM2024
 

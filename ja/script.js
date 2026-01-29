@@ -26,42 +26,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Contact form submission
 document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const formMessage = document.getElementById('formMessage');
+    // Allow form to submit naturally to FormSubmit
+    // FormSubmit will handle the email sending
     const submitButton = this.querySelector('.submit-button');
     
-    // Get form data
-    const formValues = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        phone: document.getElementById('phone').value,
-        service: document.getElementById('service').value,
-        message: document.getElementById('message').value
-    };
-    
-    // Disable submit button
+    // Disable submit button to prevent double submission
     submitButton.disabled = true;
     submitButton.textContent = i18n.t('contact.form.submitting');
-    
-    // Simulate form submission (in a real scenario, this would send data to a server)
-    setTimeout(() => {
-        // Reset form
-        this.reset();
-        
-        // Show success message
-        formMessage.className = 'form-message success';
-        formMessage.textContent = i18n.t('contact.form.success');
-        
-        // Re-enable submit button
-        submitButton.disabled = false;
-        submitButton.textContent = i18n.t('contact.form.submit');
-        
-        // Hide message after timeout
-        setTimeout(() => {
-            formMessage.className = 'form-message';
-        }, SUCCESS_MESSAGE_TIMEOUT);
-    }, FORM_SUBMIT_DELAY);
 });
 
 // Add animation on scroll
