@@ -24,6 +24,28 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 - ✅ 交互式联系表单
 - ✅ 使用CSS变量实现统一的主题管理
 - ✅ 无障碍设计支持
+- ✅ **多语言SEO优化** - 每种语言都有独立页面，带有hreflang标签
+- ✅ **SEO友好** - 包含sitemap.xml和robots.txt文件
+
+## 多语言支持
+
+本网站支持7种语言，每种语言都有独立的页面以提升SEO效果：
+
+- **English (英语)**: `/index.html` - 默认语言
+- **中文**: `/zh/index.html`
+- **Español (西班牙语)**: `/es/index.html`
+- **Français (法语)**: `/fr/index.html`
+- **العربية (阿拉伯语)**: `/ar/index.html`
+- **Русский (俄语)**: `/ru/index.html`
+- **日本語 (日语)**: `/ja/index.html`
+
+### SEO优化特性
+
+1. **Hreflang标签**: 每个页面都包含hreflang标签，告诉搜索引擎各语言版本的关系
+2. **Canonical标签**: 每个页面都有规范URL，避免重复内容问题
+3. **语言特定URL**: 每种语言都有自己的URL路径，便于搜索引擎索引
+4. **Sitemap**: 包含所有语言版本的XML站点地图
+5. **Robots.txt**: 提供搜索引擎爬虫指南
 
 ## 如何使用
 
@@ -36,9 +58,27 @@ SINODREAM 是一家专业的移民咨询机构，致力于帮助海外人士实�
 
 ## 文件结构
 
-- `index.html` - 主页面
-- `styles.css` - 样式表
-- `script.js` - JavaScript交互脚本
+```
+.
+├── index.html              # 英语版首页 (默认)
+├── styles.css              # 全局样式表
+├── script.js               # 交互脚本
+├── i18n.js                 # 国际化支持
+├── translations.js         # 翻译内容
+├── sitemap.xml            # 网站地图 (SEO)
+├── robots.txt             # 搜索引擎爬虫指南
+├── zh/                    # 中文版本
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   ├── i18n.js
+│   └── translations.js
+├── es/                    # 西班牙语版本
+├── fr/                    # 法语版本
+├── ar/                    # 阿拉伯语版本
+├── ru/                    # 俄语版本
+└── ja/                    # 日语版本
+```
 
 ## 联系我们
 
