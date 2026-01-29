@@ -42,7 +42,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     
     // Disable submit button
     submitButton.disabled = true;
-    submitButton.textContent = '提交中...';
+    submitButton.textContent = i18n.t('contact.form.submitting');
     
     // Simulate form submission (in a real scenario, this would send data to a server)
     setTimeout(() => {
@@ -51,11 +51,11 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         
         // Show success message
         formMessage.className = 'form-message success';
-        formMessage.textContent = '感谢您的咨询！我们的团队将在24小时内与您联系。';
+        formMessage.textContent = i18n.t('contact.form.success');
         
         // Re-enable submit button
         submitButton.disabled = false;
-        submitButton.textContent = '提交咨询';
+        submitButton.textContent = i18n.t('contact.form.submit');
         
         // Hide message after timeout
         setTimeout(() => {
