@@ -103,6 +103,8 @@ const translations = {
         "nav.about": "เกี่ยวกับเรา",
         "nav.process": "ขั้นตอน",
         "nav.contact": "ติดต่อ",
+        "nav.case": "กรณีศึกษา",
+        "nav.blog": "บล็อก",
         
         // Hero Section
         "hero.title": "บริการให้คำปรึกษาการย้ายถิ่นไปจีนอย่างมืออาชีพ",
