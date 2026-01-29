@@ -1114,5 +1114,191 @@ const translations = {
         // Footer
         "footer.copyright": "Hak cipta terpelihara.",
         "footer.note": "Profesional · Jujur · Cekap · Prihatin"
+    },
+    
+    tr: {
+        // Meta
+        "meta.description": "SINODREAM - Profesyonel Çin Göç Danışmanlık Ajansı, yurtdışındaki bireylerin Çin'e göç etmelerine yardımcı olur",
+        "meta.keywords": "Çin göçü, göç danışmanlığı, SINODREAM, yurtdışı bireyleri, Çin vizesi, Çin ikameti",
+        "meta.title": "SINODREAM - Profesyonel Çin Göç Danışmanlığı",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Çin Hayalinizi Gerçeğe Dönüştürüyoruz",
+        "nav.services": "Hizmetler",
+        "nav.about": "Hakkımızda",
+        "nav.process": "Süreç",
+        "nav.contact": "İletişim",
+        "nav.case": "Vakalar",
+        "nav.blog": "Blog",
+        
+        // Hero Section
+        "hero.title": "Profesyonel Çin Göç Danışmanlık Hizmetleri",
+        "hero.subtitle": "Çin'de Yeni Yaşamınıza Sorunsuz Başlamanıza Yardımcı Oluyoruz",
+        "hero.description": "SINODREAM, yurtdışındaki bireylerin Çin'e göç etme hayallerini gerçekleştirmelerine yardımcı olmaya adanmış profesyonel bir göç danışmanlık ajansıdır. Vize başvurularından ikamet izinlerine kadar kapsamlı göç danışmanlık hizmetleri sunarak göç yolculuğunuzun sorunsuz ve zahmetsiz olmasını sağlıyoruz.",
+        "hero.cta": "Ücretsiz Danışmanlık",
+        
+        // Services Section
+        "services.title": "Hizmetlerimiz",
+        "services.work.title": "Çalışma Vizesi",
+        "services.work.description": "Çin çalışma vizesi (Z vizesi) ve çalışma izni almanıza yardımcı oluyoruz, Çin'deki istihdamınız için tam destek sağlıyoruz.",
+        "services.permanent.title": "Daimi İkamet",
+        "services.permanent.description": "Çin daimi ikamet statüsü (yeşil kart) başvurusu için profesyonel rehberlik, uzun vadeli ikamet haklarından yararlanın.",
+        "services.family.title": "Aile Birleşimi",
+        "services.family.description": "Aile bağımlı vizeleri ve ikamet izinlerini işleme koyarak tüm ailenizin Çin'de bir araya gelmesini sağlıyoruz.",
+        "services.study.title": "Öğrenci Vizesi",
+        "services.study.description": "Öğrenci vizesi (X vizesi) başvurusunda yardımcı olarak Çin'deki eğitiminizi kolaylaştırıyoruz.",
+        "services.business.title": "İş Vizesi",
+        "services.business.description": "İş vizesi (M vizesi) hızlı işleme, Çin'deki iş faaliyetleriniz için uygundur.",
+        "services.extension.title": "İkamet Uzatma",
+        "services.extension.description": "İkamet izni uzatma hizmetleri sunarak Çin'deki yasal ikamet durumunuzun kesintisiz olmasını sağlıyoruz.",
+        
+        // About Section
+        "about.title": "Neden Bizi Seçmelisiniz",
+        "about.professional.title": "✓ Profesyonel Ekip",
+        "about.professional.description": "Çin'in göç politikaları ve düzenlemeleri konusunda uzman kıdemli göç danışmanları ve hukuk uzmanlarına sahibiz.",
+        "about.success.title": "✓ Yüksek Başarı Oranı",
+        "about.success.description": "Yıllar içinde biriken deneyim, yüzlerce müşterinin Çin'e göç etme hayalini başarıyla gerçekleştirmelerine yardımcı olduk.",
+        "about.service.title": "✓ Tam Hizmet",
+        "about.service.description": "Danışmanlık ve değerlendirmeden vize onayına kadar tek durak hizmet sunuyoruz ve işlem sürecini baştan sona takip ediyoruz.",
+        "about.integrity.title": "✓ Dürüstlük ve Şeffaflık",
+        "about.integrity.description": "Şeffaf ve makul ücretler, gizli ücret yok, dürüst iş müşteri güvenini kazanır.",
+        
+        // Process Section
+        "process.title": "Başvuru Süreci",
+        "process.step1.title": "Ücretsiz Danışmanlık",
+        "process.step1.description": "Göç ihtiyaçlarınızı ve uygunluğunuzu değerlendirmek için ücretsiz danışmanlık için bize ulaşın.",
+        "process.step2.title": "Özelleştirilmiş Plan",
+        "process.step2.description": "Özel durumunuza göre kişiselleştirilmiş bir göç planı geliştiriyoruz.",
+        "process.step3.title": "Belge Hazırlığı",
+        "process.step3.description": "Gerekli belgeleri hazırlamanız konusunda rehberlik ediyoruz, tüm dosyaların eksiksiz ve gereksinimlere uygun olmasını sağlıyoruz.",
+        "process.step4.title": "Başvuru Gönderin",
+        "process.step4.description": "Başvuru materyallerini sizin adınıza gönderiyoruz ve işlem sürecini takip ediyoruz.",
+        "process.step5.title": "Başarılı Onay",
+        "process.step5.description": "Vize veya ikamet izni alın ve Çin'deki yeni yaşamınıza başlayın.",
+        
+        // Contact Section
+        "contact.title": "Bize Ulaşın",
+        "contact.subtitle": "Şimdi bize ulaşın ve göç yolculuğunuza başlayın",
+        "contact.info.title": "İletişim Bilgileri",
+        "contact.info.email": "E-posta:",
+        "contact.info.phone": "Telefon:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Çalışma Saatleri:",
+        "contact.info.hours.value": "Pazartesi - Cuma 9:00-18:00",
+        "contact.form.title": "Online Danışmanlık",
+        "contact.form.name": "Ad *",
+        "contact.form.email": "E-posta *",
+        "contact.form.phone": "Telefon",
+        "contact.form.service": "İlgilendiğiniz Hizmet",
+        "contact.form.service.placeholder": "Lütfen seçin",
+        "contact.form.service.work": "Çalışma Vizesi",
+        "contact.form.service.permanent": "Daimi İkamet",
+        "contact.form.service.family": "Aile Birleşimi",
+        "contact.form.service.study": "Öğrenci Vizesi",
+        "contact.form.service.business": "İş Vizesi",
+        "contact.form.service.extension": "İkamet Uzatma",
+        "contact.form.service.other": "Diğer",
+        "contact.form.message": "Mesaj *",
+        "contact.form.submit": "Sorgu Gönder",
+        "contact.form.submitting": "Gönderiliyor...",
+        "contact.form.success": "Sorgunuz için teşekkür ederiz! Ekibimiz 24 saat içinde sizinle iletişime geçecektir.",
+        
+        // Footer
+        "footer.copyright": "Tüm hakları saklıdır.",
+        "footer.note": "Profesyonel · Dürüst · Verimli · Özenli"
+    },
+    
+    hi: {
+        // Meta
+        "meta.description": "SINODREAM - पेशेवर चीन आव्रजन परामर्श एजेंसी, विदेशी व्यक्तियों को सुचारू रूप से चीन में आव्रजन करने में मदद करती है",
+        "meta.keywords": "चीन आव्रजन, आव्रजन परामर्श, SINODREAM, विदेशी व्यक्ति, चीन वीजा, चीन निवास",
+        "meta.title": "SINODREAM - पेशेवर चीन आव्रजन परामर्श",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "आपके चीन के सपने को सच बनाना",
+        "nav.services": "सेवाएं",
+        "nav.about": "हमारे बारे में",
+        "nav.process": "प्रक्रिया",
+        "nav.contact": "संपर्क करें",
+        "nav.case": "केस",
+        "nav.blog": "ब्लॉग",
+        
+        // Hero Section
+        "hero.title": "पेशेवर चीन आव्रजन परामर्श सेवाएं",
+        "hero.subtitle": "चीन में अपना नया जीवन सुचारू रूप से शुरू करने में आपकी मदद करें",
+        "hero.description": "SINODREAM एक पेशेवर आव्रजन परामर्श एजेंसी है जो विदेशी व्यक्तियों को चीन में आव्रजन करने के उनके सपने को साकार करने में मदद करने के लिए समर्पित है। हम वीजा आवेदन से लेकर निवास परमिट तक व्यापक आव्रजन परामर्श सेवाएं प्रदान करते हैं, जो आपकी आव्रजन यात्रा को सुचारू और परेशानी मुक्त बनाती हैं।",
+        "hero.cta": "मुफ्त परामर्श",
+        
+        // Services Section
+        "services.title": "हमारी सेवाएं",
+        "services.work.title": "कार्य वीजा",
+        "services.work.description": "चीन कार्य वीजा (Z वीजा) और कार्य परमिट प्राप्त करने में सहायता, चीन में आपके रोजगार के लिए पूर्ण समर्थन प्रदान करना।",
+        "services.permanent.title": "स्थायी निवास",
+        "services.permanent.description": "चीन स्थायी निवास स्थिति (ग्रीन कार्ड) के लिए आवेदन करने के लिए पेशेवर मार्गदर्शन, दीर्घकालिक निवास अधिकारों का आनंद लें।",
+        "services.family.title": "पारिवारिक पुनर्मिलन",
+        "services.family.description": "परिवार के आश्रित वीजा और निवास परमिट की प्रक्रिया करें, जिससे आपका पूरा परिवार चीन में फिर से मिल सके।",
+        "services.study.title": "अध्ययन वीजा",
+        "services.study.description": "अध्ययन वीजा (X वीजा) के लिए आवेदन करने में सहायता, चीन में आपकी शिक्षा को सुविधाजनक बनाना।",
+        "services.business.title": "व्यवसाय वीजा",
+        "services.business.description": "व्यवसाय वीजा (M वीजा) की तेज प्रक्रिया, चीन में आपकी व्यावसायिक गतिविधियों के लिए सुविधाजनक।",
+        "services.extension.title": "निवास विस्तार",
+        "services.extension.description": "निवास परमिट विस्तार सेवाएं प्रदान करें, यह सुनिश्चित करते हुए कि चीन में आपकी कानूनी निवास स्थिति निर्बाध है।",
+        
+        // About Section
+        "about.title": "हमें क्यों चुनें",
+        "about.professional.title": "✓ पेशेवर टीम",
+        "about.professional.description": "हमारे पास वरिष्ठ आव्रजन सलाहकार और कानूनी विशेषज्ञ हैं जो चीन की आव्रजन नीतियों और विनियमों में अच्छी तरह से पारंगत हैं।",
+        "about.success.title": "✓ उच्च सफलता दर",
+        "about.success.description": "वर्षों का अनुभव संचित, सैकड़ों ग्राहकों को चीन में आव्रजन करने के उनके सपने को साकार करने में सफलतापूर्वक मदद की।",
+        "about.service.title": "✓ पूर्ण सेवा",
+        "about.service.description": "परामर्श और मूल्यांकन से लेकर वीजा अनुमोदन तक, हम वन-स्टॉप सेवा प्रदान करते हैं और पूरी प्रक्रिया प्रगति को ट्रैक करते हैं।",
+        "about.integrity.title": "✓ ईमानदारी और पारदर्शिता",
+        "about.integrity.description": "पारदर्शी और उचित शुल्क, कोई छिपा हुआ शुल्क नहीं, ईमानदार व्यवसाय ग्राहक विश्वास जीतता है।",
+        
+        // Process Section
+        "process.title": "आवेदन प्रक्रिया",
+        "process.step1.title": "मुफ्त परामर्श",
+        "process.step1.description": "अपनी आव्रजन आवश्यकताओं और पात्रता का आकलन करने के लिए मुफ्त परामर्श के लिए हमसे संपर्क करें।",
+        "process.step2.title": "अनुकूलित योजना",
+        "process.step2.description": "आपकी विशिष्ट स्थिति के आधार पर, हम एक व्यक्तिगत आव्रजन योजना विकसित करते हैं।",
+        "process.step3.title": "दस्तावेज़ तैयारी",
+        "process.step3.description": "आवश्यक दस्तावेज़ तैयार करने में आपका मार्गदर्शन करें, यह सुनिश्चित करते हुए कि सभी फाइलें पूर्ण हैं और आवश्यकताओं को पूरा करती हैं।",
+        "process.step4.title": "आवेदन जमा करें",
+        "process.step4.description": "आपकी ओर से आवेदन सामग्री जमा करें और प्रक्रिया प्रगति को ट्रैक करें।",
+        "process.step5.title": "सफल अनुमोदन",
+        "process.step5.description": "वीजा या निवास परमिट प्राप्त करें, और चीन में अपना नया जीवन शुरू करें।",
+        
+        // Contact Section
+        "contact.title": "हमसे संपर्क करें",
+        "contact.subtitle": "अभी हमसे संपर्क करें और अपनी आव्रजन यात्रा शुरू करें",
+        "contact.info.title": "संपर्क जानकारी",
+        "contact.info.email": "ईमेल:",
+        "contact.info.phone": "फोन:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "कार्य घंटे:",
+        "contact.info.hours.value": "सोमवार से शुक्रवार 9:00-18:00",
+        "contact.form.title": "ऑनलाइन परामर्श",
+        "contact.form.name": "नाम *",
+        "contact.form.email": "ईमेल *",
+        "contact.form.phone": "फोन",
+        "contact.form.service": "रुचि की सेवा",
+        "contact.form.service.placeholder": "कृपया चुनें",
+        "contact.form.service.work": "कार्य वीजा",
+        "contact.form.service.permanent": "स्थायी निवास",
+        "contact.form.service.family": "पारिवारिक पुनर्मिलन",
+        "contact.form.service.study": "अध्ययन वीजा",
+        "contact.form.service.business": "व्यवसाय वीजा",
+        "contact.form.service.extension": "निवास विस्तार",
+        "contact.form.service.other": "अन्य",
+        "contact.form.message": "संदेश *",
+        "contact.form.submit": "पूछताछ जमा करें",
+        "contact.form.submitting": "जमा हो रहा है...",
+        "contact.form.success": "आपकी पूछताछ के लिए धन्यवाद! हमारी टीम 24 घंटे के भीतर आपसे संपर्क करेगी।",
+        
+        // Footer
+        "footer.copyright": "सर्वाधिकार सुरक्षित।",
+        "footer.note": "पेशेवर · ईमानदार · कुशल · देखभाल"
     }
 };
