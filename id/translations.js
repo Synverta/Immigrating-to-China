@@ -13,6 +13,8 @@ const translations = {
         "nav.about": "About Us",
         "nav.process": "Process",
         "nav.contact": "Contact",
+        "nav.case": "Case",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Professional China Immigration Consulting Services",
@@ -104,6 +106,8 @@ const translations = {
         "nav.about": "关于我们",
         "nav.process": "办理流程",
         "nav.contact": "联系我们",
+        "nav.case": "案例",
+        "nav.blog": "博客",
         
         // Hero Section
         "hero.title": "专业的中国移民咨询服务",
@@ -195,6 +199,8 @@ const translations = {
         "nav.about": "Sobre Nosotros",
         "nav.process": "Proceso",
         "nav.contact": "Contacto",
+        "nav.case": "Caso",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Servicios Profesionales de Consultoría de Inmigración a China",
@@ -286,6 +292,8 @@ const translations = {
         "nav.about": "À Propos",
         "nav.process": "Processus",
         "nav.contact": "Contact",
+        "nav.case": "Cas",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Services Professionnels de Conseil en Immigration en Chine",
@@ -377,6 +385,8 @@ const translations = {
         "nav.about": "من نحن",
         "nav.process": "الإجراءات",
         "nav.contact": "اتصل بنا",
+        "nav.case": "الحالة",
+        "nav.blog": "المدونة",
         
         // Hero Section
         "hero.title": "خدمات استشارات الهجرة المهنية إلى الصين",
@@ -468,6 +478,8 @@ const translations = {
         "nav.about": "О Нас",
         "nav.process": "Процесс",
         "nav.contact": "Контакты",
+        "nav.case": "Кейсы",
+        "nav.blog": "Блог",
         
         // Hero Section
         "hero.title": "Профессиональные консультационные услуги по иммиграции в Китай",
@@ -559,6 +571,8 @@ const translations = {
         "nav.about": "会社概要",
         "nav.process": "プロセス",
         "nav.contact": "お問い合わせ",
+        "nav.case": "ケース",
+        "nav.blog": "ブログ",
         
         // Hero Section
         "hero.title": "専門的な中国移民コンサルティングサービス",
@@ -650,6 +664,8 @@ const translations = {
         "nav.about": "Về Chúng tôi",
         "nav.process": "Quy trình",
         "nav.contact": "Liên hệ",
+        "nav.case": "Trường hợp",
+        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Dịch vụ Tư vấn Di trú Trung Quốc Chuyên nghiệp",
@@ -726,5 +742,563 @@ const translations = {
         // Footer
         "footer.copyright": "Bảo lưu mọi quyền.",
         "footer.note": "Chuyên nghiệp · Trung thực · Hiệu quả · Chu đáo"
+    },
+    
+    th: {
+        // Meta
+        "meta.description": "SINODREAM - บริษัทที่ปรึกษาการย้ายถิ่นไปจีนมืออาชีพ ช่วยเหลือคนต่างชาติย้ายถิ่นไปจีนอย่างราบรื่น",
+        "meta.keywords": "การย้ายถิ่นไปจีน, ที่ปรึกษาการย้ายถิ่น, SINODREAM, คนต่างชาติ, วีซ่าจีน, การพำนักในจีน",
+        "meta.title": "SINODREAM - ที่ปรึกษาการย้ายถิ่นไปจีนมืออาชีพ",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "ทำให้ความฝันจีนของคุณเป็นจริง",
+        "nav.services": "บริการ",
+        "nav.about": "เกี่ยวกับเรา",
+        "nav.process": "ขั้นตอน",
+        "nav.contact": "ติดต่อ",
+        "nav.case": "กรณีศึกษา",
+        "nav.blog": "บล็อก",
+        
+        // Hero Section
+        "hero.title": "บริการให้คำปรึกษาการย้ายถิ่นไปจีนอย่างมืออาชีพ",
+        "hero.subtitle": "ช่วยคุณเริ่มต้นชีวิตใหม่ในจีนอย่างราบรื่น",
+        "hero.description": "SINODREAM เป็นบริษัทที่ปรึกษาการย้ายถิ่นมืออาชีพ มุ่งมั่นช่วยเหลือคนต่างชาติให้ความฝันในการย้ายถิ่นไปจีนเป็นจริง เรามีบริการให้คำปรึกษาการย้ายถิ่นแบบครบวงจร ตั้งแต่การยื่นขอวีซ่าไปจนถึงใบอนุญาตพำนัก ทำให้การเดินทางย้ายถิ่นของคุณราบรื่นและไร้กังวล",
+        "hero.cta": "ปรึกษาฟรี",
+        
+        // Services Section
+        "services.title": "บริการของเรา",
+        "services.work.title": "วีซ่าทำงาน",
+        "services.work.description": "ช่วยเหลือในการขอวีซ่าทำงานในจีน (วีซ่า Z) และใบอนุญาตทำงาน ให้การสนับสนุนอย่างเต็มที่สำหรับการทำงานของคุณในจีน",
+        "services.permanent.title": "การพำนักถาวร",
+        "services.permanent.description": "คำแนะนำอย่างมืออาชีพในการสมัครขอสถานะการพำนักถาวรในจีน (บัตรเขียว) เพลิดเพลินกับสิทธิ์การพำนักระยะยาว",
+        "services.family.title": "การรวมครอบครัว",
+        "services.family.description": "ดำเนินการวีซ่าสำหรับครอบครัวและใบอนุญาตพำนัก ให้ครอบครัวของคุณได้อยู่รวมกันในจีน",
+        "services.study.title": "วีซ่าเรียน",
+        "services.study.description": "ช่วยเหลือในการยื่นขอวีซ่าเรียน (วีซ่า X) อำนวยความสะดวกในการศึกษาของคุณในจีน",
+        "services.business.title": "วีซ่าธุรกิจ",
+        "services.business.description": "ดำเนินการวีซ่าธุรกิจอย่างรวดเร็ว (วีซ่า M) สะดวกสำหรับกิจกรรมทางธุรกิจของคุณในจีน",
+        "services.extension.title": "การต่ออายุการพำนัก",
+        "services.extension.description": "ให้บริการต่ออายุใบอนุญาตพำนัก รับประกันว่าสถานะการพำนักตามกฎหมายของคุณในจีนจะไม่ถูกขัดจังหวะ",
+        
+        // About Section
+        "about.title": "ทำไมต้องเลือกเรา",
+        "about.professional.title": "✓ ทีมงานมืออาชีพ",
+        "about.professional.description": "เรามีที่ปรึกษาการย้ายถิ่นอาวุโสและผู้เชี่ยวชาญด้านกฎหมายที่มีความรู้ลึกซึ้งเกี่ยวกับนโยบายและข้อบังคับการย้ายถิ่นของจีน",
+        "about.success.title": "✓ อัตราความสำเร็จสูง",
+        "about.success.description": "ประสบการณ์หลายปีที่สะสมมา ช่วยเหลือลูกค้าหลายร้อยคนให้ความฝันในการย้ายถิ่นไปจีนเป็นจริงอย่างประสบความสำเร็จ",
+        "about.service.title": "✓ บริการครบวงจร",
+        "about.service.description": "ตั้งแต่การให้คำปรึกษาและการประเมินไปจนถึงการอนุมัติวีซ่า เราให้บริการแบบครบวงจรและติดตามความคืบหน้าตลอดกระบวนการ",
+        "about.integrity.title": "✓ ความซื่อสัตย์และความโปร่งใส",
+        "about.integrity.description": "ค่าธรรมเนียมโปร่งใสและสมเหตุสมผล ไม่มีค่าใช้จ่ายที่ซ่อนเร้น การดำเนินธุรกิจด้วยความซื่อสัตย์ได้รับความไว้วางใจจากลูกค้า",
+        
+        // Process Section
+        "process.title": "ขั้นตอนการสมัคร",
+        "process.step1.title": "ปรึกษาฟรี",
+        "process.step1.description": "ติดต่อเราเพื่อรับคำปรึกษาฟรีเพื่อประเมินความต้องการและคุณสมบัติในการย้ายถิ่นของคุณ",
+        "process.step2.title": "แผนที่กำหนดเอง",
+        "process.step2.description": "โดยอิงจากสถานการณ์เฉพาะของคุณ เราจะพัฒนาแผนการย้ายถิ่นที่เหมาะกับคุณ",
+        "process.step3.title": "เตรียมเอกสาร",
+        "process.step3.description": "แนะนำคุณในการเตรียมเอกสารที่จำเป็น ให้แน่ใจว่าไฟล์ทั้งหมดครบถ้วนและตรงตามข้อกำหนด",
+        "process.step4.title": "ยื่นใบสมัคร",
+        "process.step4.description": "ยื่นเอกสารสมัครในนามของคุณและติดตามความคืบหน้าในการดำเนินการ",
+        "process.step5.title": "การอนุมัติที่ประสบความสำเร็จ",
+        "process.step5.description": "รับวีซ่าหรือใบอนุญาตพำนัก และเริ่มต้นชีวิตใหม่ของคุณในจีน",
+        
+        // Contact Section
+        "contact.title": "ติดต่อเรา",
+        "contact.subtitle": "ติดต่อเราตอนนี้และเริ่มต้นการเดินทางย้ายถิ่นของคุณ",
+        "contact.info.title": "ข้อมูลการติดต่อ",
+        "contact.info.email": "อีเมล:",
+        "contact.info.phone": "โทรศัพท์:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "เวลาทำการ:",
+        "contact.info.hours.value": "จันทร์ถึงศุกร์ 9:00-18:00",
+        "contact.form.title": "ปรึกษาออนไลน์",
+        "contact.form.name": "ชื่อ *",
+        "contact.form.email": "อีเมล *",
+        "contact.form.phone": "โทรศัพท์",
+        "contact.form.service": "บริการที่สนใจ",
+        "contact.form.service.placeholder": "กรุณาเลือก",
+        "contact.form.service.work": "วีซ่าทำงาน",
+        "contact.form.service.permanent": "การพำนักถาวร",
+        "contact.form.service.family": "การรวมครอบครัว",
+        "contact.form.service.study": "วีซ่าเรียน",
+        "contact.form.service.business": "วีซ่าธุรกิจ",
+        "contact.form.service.extension": "การต่ออายุการพำนัก",
+        "contact.form.service.other": "อื่นๆ",
+        "contact.form.message": "ข้อความ *",
+        "contact.form.submit": "ส่งคำถาม",
+        "contact.form.submitting": "กำลังส่ง...",
+        "contact.form.success": "ขอบคุณที่ติดต่อเรา! ทีมของเราจะติดต่อคุณภายใน 24 ชั่วโมง",
+        
+        // Footer
+        "footer.copyright": "สงวนลิขสิทธิ์",
+        "footer.note": "มืออาชีพ · ซื่อสัตย์ · มีประสิทธิภาพ · ใส่ใจ"
+    },
+    
+    ko: {
+        // Meta
+        "meta.description": "SINODREAM - 전문 중국 이민 컨설팅 기관, 외국인의 중국 이민을 원활하게 지원합니다",
+        "meta.keywords": "중국 이민, 이민 컨설팅, SINODREAM, 외국인, 중국 비자, 중국 거주",
+        "meta.title": "SINODREAM - 전문 중국 이민 컨설팅",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "당신의 중국 꿈을 실현합니다",
+        "nav.services": "서비스",
+        "nav.about": "회사 소개",
+        "nav.process": "절차",
+        "nav.contact": "연락처",
+        "nav.case": "사례",
+        "nav.blog": "블로그",
+        
+        // Hero Section
+        "hero.title": "전문 중국 이민 컨설팅 서비스",
+        "hero.subtitle": "중국에서의 새로운 삶을 원활하게 시작하도록 도와드립니다",
+        "hero.description": "SINODREAM은 외국인의 중국 이민 꿈을 실현하는 데 전념하는 전문 이민 컨설팅 기관입니다. 비자 신청부터 거주 허가까지 포괄적인 이민 컨설팅 서비스를 제공하여 귀하의 이민 여정을 원활하고 번거로움 없이 만들어드립니다.",
+        "hero.cta": "무료 상담",
+        
+        // Services Section
+        "services.title": "서비스",
+        "services.work.title": "취업 비자",
+        "services.work.description": "중국 취업 비자(Z 비자) 및 취업 허가 취득을 지원하여 중국에서의 고용을 완벽하게 지원합니다.",
+        "services.permanent.title": "영주권",
+        "services.permanent.description": "중국 영주권(그린카드) 신청에 대한 전문적인 안내를 제공하여 장기 거주 권리를 누리실 수 있습니다.",
+        "services.family.title": "가족 초청",
+        "services.family.description": "가족 동반 비자 및 거주 허가를 처리하여 온 가족이 중국에서 함께 살 수 있도록 합니다.",
+        "services.study.title": "학생 비자",
+        "services.study.description": "학생 비자(X 비자) 신청을 지원하여 중국에서의 교육을 촉진합니다.",
+        "services.business.title": "상용 비자",
+        "services.business.description": "상용 비자(M 비자)를 빠르게 처리하여 중국에서의 비즈니스 활동을 편리하게 합니다.",
+        "services.extension.title": "거주 연장",
+        "services.extension.description": "거주 허가 연장 서비스를 제공하여 중국에서의 합법적인 거주 상태가 중단되지 않도록 보장합니다.",
+        
+        // About Section
+        "about.title": "우리를 선택해야 하는 이유",
+        "about.professional.title": "✓ 전문 팀",
+        "about.professional.description": "중국의 이민 정책 및 규정에 정통한 선임 이민 컨설턴트와 법률 전문가가 있습니다.",
+        "about.success.title": "✓ 높은 성공률",
+        "about.success.description": "수년간 축적된 경험으로 수백 명의 고객이 중국 이민의 꿈을 실현하도록 성공적으로 도와왔습니다.",
+        "about.service.title": "✓ 완벽한 서비스",
+        "about.service.description": "상담 및 평가부터 비자 승인까지 원스톱 서비스를 제공하고 전 과정의 처리 진행 상황을 추적합니다.",
+        "about.integrity.title": "✓ 정직과 투명성",
+        "about.integrity.description": "투명하고 합리적인 수수료, 숨겨진 비용 없음, 정직한 비즈니스로 고객 신뢰를 얻습니다.",
+        
+        // Process Section
+        "process.title": "신청 절차",
+        "process.step1.title": "무료 상담",
+        "process.step1.description": "무료 상담을 위해 저희에게 연락하여 귀하의 이민 요구 사항 및 자격을 평가하십시오.",
+        "process.step2.title": "맞춤형 계획",
+        "process.step2.description": "귀하의 구체적인 상황에 따라 개인화된 이민 계획을 개발합니다.",
+        "process.step3.title": "서류 준비",
+        "process.step3.description": "필요한 서류 준비를 안내하여 모든 파일이 완전하고 요구 사항을 충족하도록 합니다.",
+        "process.step4.title": "신청서 제출",
+        "process.step4.description": "귀하를 대신하여 신청 자료를 제출하고 처리 진행 상황을 추적합니다.",
+        "process.step5.title": "승인 성공",
+        "process.step5.description": "비자 또는 거주 허가를 받고 중국에서의 새로운 삶을 시작하십시오.",
+        
+        // Contact Section
+        "contact.title": "연락처",
+        "contact.subtitle": "지금 연락하여 이민 여정을 시작하십시오",
+        "contact.info.title": "연락 정보",
+        "contact.info.email": "이메일:",
+        "contact.info.phone": "전화:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "업무 시간:",
+        "contact.info.hours.value": "월요일부터 금요일 9:00-18:00",
+        "contact.form.title": "온라인 상담",
+        "contact.form.name": "이름 *",
+        "contact.form.email": "이메일 *",
+        "contact.form.phone": "전화",
+        "contact.form.service": "관심 서비스",
+        "contact.form.service.placeholder": "선택하십시오",
+        "contact.form.service.work": "취업 비자",
+        "contact.form.service.permanent": "영주권",
+        "contact.form.service.family": "가족 초청",
+        "contact.form.service.study": "학생 비자",
+        "contact.form.service.business": "상용 비자",
+        "contact.form.service.extension": "거주 연장",
+        "contact.form.service.other": "기타",
+        "contact.form.message": "메시지 *",
+        "contact.form.submit": "문의 제출",
+        "contact.form.submitting": "제출 중...",
+        "contact.form.success": "문의해 주셔서 감사합니다! 저희 팀이 24시간 이내에 연락드리겠습니다.",
+        
+        // Footer
+        "footer.copyright": "모든 권리 보유.",
+        "footer.note": "전문적 · 정직 · 효율적 · 배려"
+    },
+    
+    id: {
+        // Meta
+        "meta.description": "SINODREAM - Lembaga Konsultasi Imigrasi Tiongkok Profesional, membantu individu luar negeri berimigrasi ke Tiongkok dengan lancar",
+        "meta.keywords": "Imigrasi Tiongkok, konsultasi imigrasi, SINODREAM, individu luar negeri, visa Tiongkok, izin tinggal Tiongkok",
+        "meta.title": "SINODREAM - Layanan Konsultasi Imigrasi Tiongkok Profesional",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Mewujudkan Impian Tiongkok Anda",
+        "nav.services": "Layanan",
+        "nav.about": "Tentang Kami",
+        "nav.process": "Proses",
+        "nav.contact": "Kontak",
+        "nav.case": "Kasus",
+        "nav.blog": "Blog",
+        
+        // Hero Section
+        "hero.title": "Layanan Konsultasi Imigrasi Tiongkok Profesional",
+        "hero.subtitle": "Membantu Anda Memulai Kehidupan Baru di Tiongkok dengan Lancar",
+        "hero.description": "SINODREAM adalah lembaga konsultasi imigrasi profesional yang berdedikasi untuk membantu individu luar negeri mewujudkan impian mereka untuk berimigrasi ke Tiongkok. Kami menyediakan layanan konsultasi imigrasi yang komprehensif, mulai dari aplikasi visa hingga izin tinggal, membuat perjalanan imigrasi Anda lancar dan bebas hambatan.",
+        "hero.cta": "Konsultasi Gratis",
+        
+        // Services Section
+        "services.title": "Layanan Kami",
+        "services.work.title": "Visa Kerja",
+        "services.work.description": "Membantu memperoleh visa kerja Tiongkok (visa Z) dan izin kerja, memberikan dukungan penuh untuk pekerjaan Anda di Tiongkok.",
+        "services.permanent.title": "Izin Tinggal Permanen",
+        "services.permanent.description": "Bimbingan profesional untuk mengajukan status izin tinggal permanen Tiongkok (kartu hijau), menikmati hak tinggal jangka panjang.",
+        "services.family.title": "Reunifikasi Keluarga",
+        "services.family.description": "Memproses visa tanggungan keluarga dan izin tinggal, memungkinkan seluruh keluarga Anda berkumpul kembali di Tiongkok.",
+        "services.study.title": "Visa Pelajar",
+        "services.study.description": "Membantu mengajukan visa pelajar (visa X), memfasilitasi pendidikan Anda di Tiongkok.",
+        "services.business.title": "Visa Bisnis",
+        "services.business.description": "Pemrosesan cepat visa bisnis (visa M), nyaman untuk aktivitas bisnis Anda di Tiongkok.",
+        "services.extension.title": "Perpanjangan Izin Tinggal",
+        "services.extension.description": "Menyediakan layanan perpanjangan izin tinggal, memastikan status tinggal legal Anda di Tiongkok tidak terputus.",
+        
+        // About Section
+        "about.title": "Mengapa Memilih Kami",
+        "about.professional.title": "✓ Tim Profesional",
+        "about.professional.description": "Kami memiliki konsultan imigrasi senior dan ahli hukum yang sangat memahami kebijakan dan peraturan imigrasi Tiongkok.",
+        "about.success.title": "✓ Tingkat Keberhasilan Tinggi",
+        "about.success.description": "Pengalaman bertahun-tahun yang terakumulasi, berhasil membantu ratusan klien mewujudkan impian mereka untuk berimigrasi ke Tiongkok.",
+        "about.service.title": "✓ Layanan Lengkap",
+        "about.service.description": "Dari konsultasi dan penilaian hingga persetujuan visa, kami menyediakan layanan satu atap dan melacak kemajuan pemrosesan sepanjang waktu.",
+        "about.integrity.title": "✓ Kejujuran dan Transparansi",
+        "about.integrity.description": "Biaya yang transparan dan wajar, tanpa biaya tersembunyi, bisnis yang jujur memenangkan kepercayaan pelanggan.",
+        
+        // Process Section
+        "process.title": "Proses Aplikasi",
+        "process.step1.title": "Konsultasi Gratis",
+        "process.step1.description": "Hubungi kami untuk konsultasi gratis untuk menilai kebutuhan dan kelayakan imigrasi Anda.",
+        "process.step2.title": "Rencana Kustom",
+        "process.step2.description": "Berdasarkan situasi spesifik Anda, kami mengembangkan rencana imigrasi yang dipersonalisasi.",
+        "process.step3.title": "Persiapan Dokumen",
+        "process.step3.description": "Membimbing Anda dalam menyiapkan dokumen yang diperlukan, memastikan semua file lengkap dan memenuhi persyaratan.",
+        "process.step4.title": "Ajukan Aplikasi",
+        "process.step4.description": "Mengajukan materi aplikasi atas nama Anda dan melacak kemajuan pemrosesan.",
+        "process.step5.title": "Persetujuan Berhasil",
+        "process.step5.description": "Dapatkan visa atau izin tinggal, dan mulai kehidupan baru Anda di Tiongkok.",
+        
+        // Contact Section
+        "contact.title": "Hubungi Kami",
+        "contact.subtitle": "Hubungi kami sekarang dan mulai perjalanan imigrasi Anda",
+        "contact.info.title": "Informasi Kontak",
+        "contact.info.email": "Email:",
+        "contact.info.phone": "Telepon:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Jam Kerja:",
+        "contact.info.hours.value": "Senin hingga Jumat 9:00-18:00",
+        "contact.form.title": "Konsultasi Online",
+        "contact.form.name": "Nama *",
+        "contact.form.email": "Email *",
+        "contact.form.phone": "Telepon",
+        "contact.form.service": "Layanan yang Diminati",
+        "contact.form.service.placeholder": "Silakan pilih",
+        "contact.form.service.work": "Visa Kerja",
+        "contact.form.service.permanent": "Izin Tinggal Permanen",
+        "contact.form.service.family": "Reunifikasi Keluarga",
+        "contact.form.service.study": "Visa Pelajar",
+        "contact.form.service.business": "Visa Bisnis",
+        "contact.form.service.extension": "Perpanjangan Izin Tinggal",
+        "contact.form.service.other": "Lainnya",
+        "contact.form.message": "Pesan *",
+        "contact.form.submit": "Kirim Pertanyaan",
+        "contact.form.submitting": "Mengirim...",
+        "contact.form.success": "Terima kasih atas pertanyaan Anda! Tim kami akan menghubungi Anda dalam 24 jam.",
+        
+        // Footer
+        "footer.copyright": "Hak cipta dilindungi.",
+        "footer.note": "Profesional · Jujur · Efisien · Peduli"
+    },
+    
+    ms: {
+        // Meta
+        "meta.description": "SINODREAM - Agensi Rundingan Imigresen China Profesional, membantu individu luar negara berhijrah ke China dengan lancar",
+        "meta.keywords": "Imigresen China, rundingan imigresen, SINODREAM, individu luar negara, visa China, kediaman China",
+        "meta.title": "SINODREAM - Perkhidmatan Rundingan Imigresen China Profesional",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Merealisasikan Impian China Anda",
+        "nav.services": "Perkhidmatan",
+        "nav.about": "Tentang Kami",
+        "nav.process": "Proses",
+        "nav.contact": "Hubungi",
+        "nav.case": "Kes",
+        "nav.blog": "Blog",
+        
+        // Hero Section
+        "hero.title": "Perkhidmatan Rundingan Imigresen China Profesional",
+        "hero.subtitle": "Membantu Anda Memulakan Kehidupan Baru di China dengan Lancar",
+        "hero.description": "SINODREAM adalah agensi rundingan imigresen profesional yang berdedikasi untuk membantu individu luar negara merealisasikan impian mereka untuk berhijrah ke China. Kami menyediakan perkhidmatan rundingan imigresen yang komprehensif, daripada permohonan visa hingga permit kediaman, menjadikan perjalanan imigresen anda lancar dan tanpa masalah.",
+        "hero.cta": "Rundingan Percuma",
+        
+        // Services Section
+        "services.title": "Perkhidmatan Kami",
+        "services.work.title": "Visa Kerja",
+        "services.work.description": "Membantu mendapatkan visa kerja China (visa Z) dan permit kerja, memberikan sokongan penuh untuk pekerjaan anda di China.",
+        "services.permanent.title": "Kediaman Tetap",
+        "services.permanent.description": "Bimbingan profesional untuk memohon status kediaman tetap China (kad hijau), menikmati hak kediaman jangka panjang.",
+        "services.family.title": "Penyatuan Keluarga",
+        "services.family.description": "Memproses visa tanggungan keluarga dan permit kediaman, membolehkan seluruh keluarga anda bersatu semula di China.",
+        "services.study.title": "Visa Pelajar",
+        "services.study.description": "Membantu memohon visa pelajar (visa X), memudahkan pendidikan anda di China.",
+        "services.business.title": "Visa Perniagaan",
+        "services.business.description": "Pemprosesan pantas visa perniagaan (visa M), mudah untuk aktiviti perniagaan anda di China.",
+        "services.extension.title": "Lanjutan Kediaman",
+        "services.extension.description": "Menyediakan perkhidmatan lanjutan permit kediaman, memastikan status kediaman sah anda di China tidak terputus.",
+        
+        // About Section
+        "about.title": "Mengapa Pilih Kami",
+        "about.professional.title": "✓ Pasukan Profesional",
+        "about.professional.description": "Kami mempunyai perunding imigresen kanan dan pakar undang-undang yang mahir dalam dasar dan peraturan imigresen China.",
+        "about.success.title": "✓ Kadar Kejayaan Tinggi",
+        "about.success.description": "Pengalaman bertahun-tahun terkumpul, berjaya membantu beratus-ratus pelanggan merealisasikan impian mereka untuk berhijrah ke China.",
+        "about.service.title": "✓ Perkhidmatan Lengkap",
+        "about.service.description": "Daripada rundingan dan penilaian hingga kelulusan visa, kami menyediakan perkhidmatan sehenti dan menjejaki kemajuan pemprosesan sepanjang masa.",
+        "about.integrity.title": "✓ Kejujuran dan Ketelusan",
+        "about.integrity.description": "Yuran yang telus dan munasabah, tiada caj tersembunyi, perniagaan yang jujur memenangi kepercayaan pelanggan.",
+        
+        // Process Section
+        "process.title": "Proses Permohonan",
+        "process.step1.title": "Rundingan Percuma",
+        "process.step1.description": "Hubungi kami untuk rundingan percuma untuk menilai keperluan dan kelayakan imigresen anda.",
+        "process.step2.title": "Pelan Tersuai",
+        "process.step2.description": "Berdasarkan situasi khusus anda, kami membangunkan pelan imigresen yang diperibadikan.",
+        "process.step3.title": "Penyediaan Dokumen",
+        "process.step3.description": "Membimbing anda dalam menyediakan dokumen yang diperlukan, memastikan semua fail lengkap dan memenuhi keperluan.",
+        "process.step4.title": "Hantar Permohonan",
+        "process.step4.description": "Menghantar bahan permohonan bagi pihak anda dan menjejaki kemajuan pemprosesan.",
+        "process.step5.title": "Kelulusan Berjaya",
+        "process.step5.description": "Dapatkan visa atau permit kediaman, dan mulakan kehidupan baru anda di China.",
+        
+        // Contact Section
+        "contact.title": "Hubungi Kami",
+        "contact.subtitle": "Hubungi kami sekarang dan mulakan perjalanan imigresen anda",
+        "contact.info.title": "Maklumat Hubungan",
+        "contact.info.email": "E-mel:",
+        "contact.info.phone": "Telefon:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Waktu Perniagaan:",
+        "contact.info.hours.value": "Isnin hingga Jumaat 9:00-18:00",
+        "contact.form.title": "Rundingan Dalam Talian",
+        "contact.form.name": "Nama *",
+        "contact.form.email": "E-mel *",
+        "contact.form.phone": "Telefon",
+        "contact.form.service": "Perkhidmatan yang Diminati",
+        "contact.form.service.placeholder": "Sila pilih",
+        "contact.form.service.work": "Visa Kerja",
+        "contact.form.service.permanent": "Kediaman Tetap",
+        "contact.form.service.family": "Penyatuan Keluarga",
+        "contact.form.service.study": "Visa Pelajar",
+        "contact.form.service.business": "Visa Perniagaan",
+        "contact.form.service.extension": "Lanjutan Kediaman",
+        "contact.form.service.other": "Lain-lain",
+        "contact.form.message": "Mesej *",
+        "contact.form.submit": "Hantar Pertanyaan",
+        "contact.form.submitting": "Menghantar...",
+        "contact.form.success": "Terima kasih atas pertanyaan anda! Pasukan kami akan menghubungi anda dalam 24 jam.",
+        
+        // Footer
+        "footer.copyright": "Hak cipta terpelihara.",
+        "footer.note": "Profesional · Jujur · Cekap · Prihatin"
+    },
+    
+    tr: {
+        // Meta
+        "meta.description": "SINODREAM - Profesyonel Çin Göç Danışmanlık Ajansı, yurtdışındaki bireylerin Çin'e göç etmelerine yardımcı olur",
+        "meta.keywords": "Çin göçü, göç danışmanlığı, SINODREAM, yurtdışı bireyleri, Çin vizesi, Çin ikameti",
+        "meta.title": "SINODREAM - Profesyonel Çin Göç Danışmanlığı",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "Çin Hayalinizi Gerçeğe Dönüştürüyoruz",
+        "nav.services": "Hizmetler",
+        "nav.about": "Hakkımızda",
+        "nav.process": "Süreç",
+        "nav.contact": "İletişim",
+        "nav.case": "Vakalar",
+        "nav.blog": "Blog",
+        
+        // Hero Section
+        "hero.title": "Profesyonel Çin Göç Danışmanlık Hizmetleri",
+        "hero.subtitle": "Çin'de Yeni Yaşamınıza Sorunsuz Başlamanıza Yardımcı Oluyoruz",
+        "hero.description": "SINODREAM, yurtdışındaki bireylerin Çin'e göç etme hayallerini gerçekleştirmelerine yardımcı olmaya adanmış profesyonel bir göç danışmanlık ajansıdır. Vize başvurularından ikamet izinlerine kadar kapsamlı göç danışmanlık hizmetleri sunarak göç yolculuğunuzun sorunsuz ve zahmetsiz olmasını sağlıyoruz.",
+        "hero.cta": "Ücretsiz Danışmanlık",
+        
+        // Services Section
+        "services.title": "Hizmetlerimiz",
+        "services.work.title": "Çalışma Vizesi",
+        "services.work.description": "Çin çalışma vizesi (Z vizesi) ve çalışma izni almanıza yardımcı oluyoruz, Çin'deki istihdamınız için tam destek sağlıyoruz.",
+        "services.permanent.title": "Daimi İkamet",
+        "services.permanent.description": "Çin daimi ikamet statüsü (yeşil kart) başvurusu için profesyonel rehberlik, uzun vadeli ikamet haklarından yararlanın.",
+        "services.family.title": "Aile Birleşimi",
+        "services.family.description": "Aile bağımlı vizeleri ve ikamet izinlerini işleme koyarak tüm ailenizin Çin'de bir araya gelmesini sağlıyoruz.",
+        "services.study.title": "Öğrenci Vizesi",
+        "services.study.description": "Öğrenci vizesi (X vizesi) başvurusunda yardımcı olarak Çin'deki eğitiminizi kolaylaştırıyoruz.",
+        "services.business.title": "İş Vizesi",
+        "services.business.description": "İş vizesi (M vizesi) hızlı işleme, Çin'deki iş faaliyetleriniz için uygundur.",
+        "services.extension.title": "İkamet Uzatma",
+        "services.extension.description": "İkamet izni uzatma hizmetleri sunarak Çin'deki yasal ikamet durumunuzun kesintisiz olmasını sağlıyoruz.",
+        
+        // About Section
+        "about.title": "Neden Bizi Seçmelisiniz",
+        "about.professional.title": "✓ Profesyonel Ekip",
+        "about.professional.description": "Çin'in göç politikaları ve düzenlemeleri konusunda uzman kıdemli göç danışmanları ve hukuk uzmanlarına sahibiz.",
+        "about.success.title": "✓ Yüksek Başarı Oranı",
+        "about.success.description": "Yıllar içinde biriken deneyim, yüzlerce müşterinin Çin'e göç etme hayalini başarıyla gerçekleştirmelerine yardımcı olduk.",
+        "about.service.title": "✓ Tam Hizmet",
+        "about.service.description": "Danışmanlık ve değerlendirmeden vize onayına kadar tek durak hizmet sunuyoruz ve işlem sürecini baştan sona takip ediyoruz.",
+        "about.integrity.title": "✓ Dürüstlük ve Şeffaflık",
+        "about.integrity.description": "Şeffaf ve makul ücretler, gizli ücret yok, dürüst iş müşteri güvenini kazanır.",
+        
+        // Process Section
+        "process.title": "Başvuru Süreci",
+        "process.step1.title": "Ücretsiz Danışmanlık",
+        "process.step1.description": "Göç ihtiyaçlarınızı ve uygunluğunuzu değerlendirmek için ücretsiz danışmanlık için bize ulaşın.",
+        "process.step2.title": "Özelleştirilmiş Plan",
+        "process.step2.description": "Özel durumunuza göre kişiselleştirilmiş bir göç planı geliştiriyoruz.",
+        "process.step3.title": "Belge Hazırlığı",
+        "process.step3.description": "Gerekli belgeleri hazırlamanız konusunda rehberlik ediyoruz, tüm dosyaların eksiksiz ve gereksinimlere uygun olmasını sağlıyoruz.",
+        "process.step4.title": "Başvuru Gönderin",
+        "process.step4.description": "Başvuru materyallerini sizin adınıza gönderiyoruz ve işlem sürecini takip ediyoruz.",
+        "process.step5.title": "Başarılı Onay",
+        "process.step5.description": "Vize veya ikamet izni alın ve Çin'deki yeni yaşamınıza başlayın.",
+        
+        // Contact Section
+        "contact.title": "Bize Ulaşın",
+        "contact.subtitle": "Şimdi bize ulaşın ve göç yolculuğunuza başlayın",
+        "contact.info.title": "İletişim Bilgileri",
+        "contact.info.email": "E-posta:",
+        "contact.info.phone": "Telefon:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "Çalışma Saatleri:",
+        "contact.info.hours.value": "Pazartesi - Cuma 9:00-18:00",
+        "contact.form.title": "Online Danışmanlık",
+        "contact.form.name": "Ad *",
+        "contact.form.email": "E-posta *",
+        "contact.form.phone": "Telefon",
+        "contact.form.service": "İlgilendiğiniz Hizmet",
+        "contact.form.service.placeholder": "Lütfen seçin",
+        "contact.form.service.work": "Çalışma Vizesi",
+        "contact.form.service.permanent": "Daimi İkamet",
+        "contact.form.service.family": "Aile Birleşimi",
+        "contact.form.service.study": "Öğrenci Vizesi",
+        "contact.form.service.business": "İş Vizesi",
+        "contact.form.service.extension": "İkamet Uzatma",
+        "contact.form.service.other": "Diğer",
+        "contact.form.message": "Mesaj *",
+        "contact.form.submit": "Sorgu Gönder",
+        "contact.form.submitting": "Gönderiliyor...",
+        "contact.form.success": "Sorgunuz için teşekkür ederiz! Ekibimiz 24 saat içinde sizinle iletişime geçecektir.",
+        
+        // Footer
+        "footer.copyright": "Tüm hakları saklıdır.",
+        "footer.note": "Profesyonel · Dürüst · Verimli · Özenli"
+    },
+    
+    hi: {
+        // Meta
+        "meta.description": "SINODREAM - पेशेवर चीन आव्रजन परामर्श एजेंसी, विदेशी व्यक्तियों को सुचारू रूप से चीन में आव्रजन करने में मदद करती है",
+        "meta.keywords": "चीन आव्रजन, आव्रजन परामर्श, SINODREAM, विदेशी व्यक्ति, चीन वीजा, चीन निवास",
+        "meta.title": "SINODREAM - पेशेवर चीन आव्रजन परामर्श",
+        
+        // Header
+        "header.logo": "SINODREAM",
+        "header.tagline": "आपके चीन के सपने को सच बनाना",
+        "nav.services": "सेवाएं",
+        "nav.about": "हमारे बारे में",
+        "nav.process": "प्रक्रिया",
+        "nav.contact": "संपर्क करें",
+        "nav.case": "केस",
+        "nav.blog": "ब्लॉग",
+        
+        // Hero Section
+        "hero.title": "पेशेवर चीन आव्रजन परामर्श सेवाएं",
+        "hero.subtitle": "चीन में अपना नया जीवन सुचारू रूप से शुरू करने में आपकी मदद करें",
+        "hero.description": "SINODREAM एक पेशेवर आव्रजन परामर्श एजेंसी है जो विदेशी व्यक्तियों को चीन में आव्रजन करने के उनके सपने को साकार करने में मदद करने के लिए समर्पित है। हम वीजा आवेदन से लेकर निवास परमिट तक व्यापक आव्रजन परामर्श सेवाएं प्रदान करते हैं, जो आपकी आव्रजन यात्रा को सुचारू और परेशानी मुक्त बनाती हैं।",
+        "hero.cta": "मुफ्त परामर्श",
+        
+        // Services Section
+        "services.title": "हमारी सेवाएं",
+        "services.work.title": "कार्य वीजा",
+        "services.work.description": "चीन कार्य वीजा (Z वीजा) और कार्य परमिट प्राप्त करने में सहायता, चीन में आपके रोजगार के लिए पूर्ण समर्थन प्रदान करना।",
+        "services.permanent.title": "स्थायी निवास",
+        "services.permanent.description": "चीन स्थायी निवास स्थिति (ग्रीन कार्ड) के लिए आवेदन करने के लिए पेशेवर मार्गदर्शन, दीर्घकालिक निवास अधिकारों का आनंद लें।",
+        "services.family.title": "पारिवारिक पुनर्मिलन",
+        "services.family.description": "परिवार के आश्रित वीजा और निवास परमिट की प्रक्रिया करें, जिससे आपका पूरा परिवार चीन में फिर से मिल सके।",
+        "services.study.title": "अध्ययन वीजा",
+        "services.study.description": "अध्ययन वीजा (X वीजा) के लिए आवेदन करने में सहायता, चीन में आपकी शिक्षा को सुविधाजनक बनाना।",
+        "services.business.title": "व्यवसाय वीजा",
+        "services.business.description": "व्यवसाय वीजा (M वीजा) की तेज प्रक्रिया, चीन में आपकी व्यावसायिक गतिविधियों के लिए सुविधाजनक।",
+        "services.extension.title": "निवास विस्तार",
+        "services.extension.description": "निवास परमिट विस्तार सेवाएं प्रदान करें, यह सुनिश्चित करते हुए कि चीन में आपकी कानूनी निवास स्थिति निर्बाध है।",
+        
+        // About Section
+        "about.title": "हमें क्यों चुनें",
+        "about.professional.title": "✓ पेशेवर टीम",
+        "about.professional.description": "हमारे पास वरिष्ठ आव्रजन सलाहकार और कानूनी विशेषज्ञ हैं जो चीन की आव्रजन नीतियों और विनियमों में अच्छी तरह से पारंगत हैं।",
+        "about.success.title": "✓ उच्च सफलता दर",
+        "about.success.description": "वर्षों का अनुभव संचित, सैकड़ों ग्राहकों को चीन में आव्रजन करने के उनके सपने को साकार करने में सफलतापूर्वक मदद की।",
+        "about.service.title": "✓ पूर्ण सेवा",
+        "about.service.description": "परामर्श और मूल्यांकन से लेकर वीजा अनुमोदन तक, हम वन-स्टॉप सेवा प्रदान करते हैं और पूरी प्रक्रिया प्रगति को ट्रैक करते हैं।",
+        "about.integrity.title": "✓ ईमानदारी और पारदर्शिता",
+        "about.integrity.description": "पारदर्शी और उचित शुल्क, कोई छिपा हुआ शुल्क नहीं, ईमानदार व्यवसाय ग्राहक विश्वास जीतता है।",
+        
+        // Process Section
+        "process.title": "आवेदन प्रक्रिया",
+        "process.step1.title": "मुफ्त परामर्श",
+        "process.step1.description": "अपनी आव्रजन आवश्यकताओं और पात्रता का आकलन करने के लिए मुफ्त परामर्श के लिए हमसे संपर्क करें।",
+        "process.step2.title": "अनुकूलित योजना",
+        "process.step2.description": "आपकी विशिष्ट स्थिति के आधार पर, हम एक व्यक्तिगत आव्रजन योजना विकसित करते हैं।",
+        "process.step3.title": "दस्तावेज़ तैयारी",
+        "process.step3.description": "आवश्यक दस्तावेज़ तैयार करने में आपका मार्गदर्शन करें, यह सुनिश्चित करते हुए कि सभी फाइलें पूर्ण हैं और आवश्यकताओं को पूरा करती हैं।",
+        "process.step4.title": "आवेदन जमा करें",
+        "process.step4.description": "आपकी ओर से आवेदन सामग्री जमा करें और प्रक्रिया प्रगति को ट्रैक करें।",
+        "process.step5.title": "सफल अनुमोदन",
+        "process.step5.description": "वीजा या निवास परमिट प्राप्त करें, और चीन में अपना नया जीवन शुरू करें।",
+        
+        // Contact Section
+        "contact.title": "हमसे संपर्क करें",
+        "contact.subtitle": "अभी हमसे संपर्क करें और अपनी आव्रजन यात्रा शुरू करें",
+        "contact.info.title": "संपर्क जानकारी",
+        "contact.info.email": "ईमेल:",
+        "contact.info.phone": "फोन:",
+        "contact.info.wechat": "WeChat:",
+        "contact.info.hours": "कार्य घंटे:",
+        "contact.info.hours.value": "सोमवार से शुक्रवार 9:00-18:00",
+        "contact.form.title": "ऑनलाइन परामर्श",
+        "contact.form.name": "नाम *",
+        "contact.form.email": "ईमेल *",
+        "contact.form.phone": "फोन",
+        "contact.form.service": "रुचि की सेवा",
+        "contact.form.service.placeholder": "कृपया चुनें",
+        "contact.form.service.work": "कार्य वीजा",
+        "contact.form.service.permanent": "स्थायी निवास",
+        "contact.form.service.family": "पारिवारिक पुनर्मिलन",
+        "contact.form.service.study": "अध्ययन वीजा",
+        "contact.form.service.business": "व्यवसाय वीजा",
+        "contact.form.service.extension": "निवास विस्तार",
+        "contact.form.service.other": "अन्य",
+        "contact.form.message": "संदेश *",
+        "contact.form.submit": "पूछताछ जमा करें",
+        "contact.form.submitting": "जमा हो रहा है...",
+        "contact.form.success": "आपकी पूछताछ के लिए धन्यवाद! हमारी टीम 24 घंटे के भीतर आपसे संपर्क करेगी।",
+        
+        // Footer
+        "footer.copyright": "सर्वाधिकार सुरक्षित।",
+        "footer.note": "पेशेवर · ईमानदार · कुशल · देखभाल"
     }
 };

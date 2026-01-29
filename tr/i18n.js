@@ -121,14 +121,7 @@ class I18n {
                 'fr': 'Français',
                 'ar': 'العربية',
                 'ru': 'Русский',
-                'ja': '日本語',
-                'vi': 'Tiếng Việt',
-                'th': 'ภาษาไทย',
-                'ko': '한국어',
-                'id': 'Bahasa Indonesia',
-                'ms': 'Bahasa Melayu',
-                'tr': 'Türkçe',
-                'hi': 'हिन्दी'
+                'ja': '日本語'
             };
             currentLangDisplay.textContent = langNames[this.currentLanguage] || 'Language';
         }
