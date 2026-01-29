@@ -172,7 +172,7 @@
                     <h3 data-i18n="contact.info.title">Contact Information</h3>
                     <div class="info-item">
                         <strong>📧 <span data-i18n="contact.info.email">Email:</span></strong>
-                        <a href="mailto:info@sinodream.com">info@sinodream.com</a>
+                        <a href="mailto:sinodream@proton.me">sinodream@proton.me</a>
                     </div>
                     <div class="info-item">
                         <strong>📱 <span data-i18n="contact.info.phone">Phone:</span></strong>
@@ -189,7 +189,13 @@
                 </div>
                 <div class="contact-form-container">
                     <h3 data-i18n="contact.form.title">Online Consultation</h3>
-                    <form id="contactForm" class="contact-form">
+                    <form id="contactForm" class="contact-form" action="https://formsubmit.co/sinodream@proton.me" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New inquiry from SINODREAM website">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://synverta.github.io/Immigrating-to-China/es/index.html#contact">
+                        
                         <div class="form-group">
                             <label for="name" data-i18n="contact.form.name">Name *</label>
                             <input type="text" id="name" name="name" required maxlength="50">
