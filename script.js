@@ -1,3 +1,11 @@
+// Constants
+const FORM_SUBMIT_DELAY = 1000; // Simulated form submission delay in ms
+const SUCCESS_MESSAGE_TIMEOUT = 5000; // Auto-hide timeout for success message in ms
+const HEADER_HEIGHT = 80; // Approximate header height in pixels
+
+// Set current year in footer
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -7,9 +15,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
+            const targetPosition = targetElement.offsetTop - HEADER_HEIGHT;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
             });
         }
     });
@@ -23,7 +32,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     const submitButton = this.querySelector('.submit-button');
     
     // Get form data
-    const formData = {
+    const formValues = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
         phone: document.getElementById('phone').value,
@@ -48,14 +57,11 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         submitButton.disabled = false;
         submitButton.textContent = '提交咨询';
         
-        // Hide message after 5 seconds
+        // Hide message after timeout
         setTimeout(() => {
-            formMessage.style.display = 'none';
-        }, 5000);
-        
-        // Log form data (for demonstration purposes)
-        console.log('表单数据:', formData);
-    }, 1000);
+            formMessage.className = 'form-message';
+        }, SUCCESS_MESSAGE_TIMEOUT);
+    }, FORM_SUBMIT_DELAY);
 });
 
 // Add animation on scroll
@@ -67,26 +73,30 @@ const observerOptions = {
 const observer = new IntersectionObserver(function(entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('animated');
         }
     });
 }, observerOptions);
 
 // Observe service cards
 document.querySelectorAll('.service-card, .about-card, .step').forEach(element => {
-    element.style.opacity = '0';
-    element.style.transform = 'translateY(20px)';
-    element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    element.classList.add('animate-on-scroll');
     observer.observe(element);
 });
 
-// Header shadow on scroll
+// Header shadow on scroll (using class toggle)
+let scrollTimeout;
 window.addEventListener('scroll', function() {
-    const header = document.querySelector('.header');
-    if (window.scrollY > 0) {
-        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
-    } else {
-        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+    if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
     }
+    
+    scrollTimeout = setTimeout(() => {
+        const header = document.querySelector('.header');
+        if (window.scrollY > 0) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    }, 10);
 });

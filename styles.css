@@ -1,3 +1,15 @@
+/* CSS Variables */
+:root {
+    --color-primary: #c8102e;
+    --color-primary-dark: #8b0000;
+    --color-accent: #ffde00;
+    --color-accent-dark: #ffa500;
+    --color-text: #333;
+    --color-text-light: #666;
+    --color-bg: #fff;
+    --color-bg-light: #f8f9fa;
+}
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -8,8 +20,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    color: var(--color-text);
+    background-color: var(--color-bg);
 }
 
 .container {
@@ -20,13 +32,18 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #c8102e 0%, #8b0000 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     color: white;
     padding: 1rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.header.scrolled {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 .header .container {
@@ -64,7 +81,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #ffde00 0%, #ffa500 100%);
+    background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
     padding: 4rem 0;
     text-align: center;
 }
@@ -77,26 +94,26 @@ body {
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #c8102e;
+    color: var(--color-primary);
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: #8b0000;
+    color: var(--color-primary-dark);
     font-weight: 600;
 }
 
 .hero-description {
     font-size: 1.125rem;
     margin-bottom: 2rem;
-    color: #333;
+    color: var(--color-text);
     line-height: 1.8;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #c8102e;
+    background-color: var(--color-primary);
     color: white;
     padding: 1rem 2.5rem;
     border-radius: 50px;
@@ -110,6 +127,7 @@ body {
 .cta-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(200, 16, 46, 0.4);
+    background-color: var(--color-primary-dark);
 }
 
 /* Section Styles */
@@ -121,7 +139,7 @@ section {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
-    color: #c8102e;
+    color: var(--color-primary);
     position: relative;
 }
 
@@ -130,13 +148,13 @@ section {
     display: block;
     width: 60px;
     height: 3px;
-    background-color: #ffde00;
+    background-color: var(--color-accent);
     margin: 1rem auto 0;
 }
 
 /* Services Section */
 .services {
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
 }
 
 .services-grid {
@@ -165,13 +183,13 @@ section {
 }
 
 .service-card h3 {
-    color: #c8102e;
+    color: var(--color-primary);
     margin-bottom: 1rem;
     font-size: 1.375rem;
 }
 
 .service-card p {
-    color: #666;
+    color: var(--color-text-light);
     line-height: 1.6;
 }
 
@@ -184,24 +202,24 @@ section {
 
 .about-card {
     padding: 1.5rem;
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
     border-radius: 10px;
-    border-left: 4px solid #ffde00;
+    border-left: 4px solid var(--color-accent);
 }
 
 .about-card h3 {
-    color: #c8102e;
+    color: var(--color-primary);
     margin-bottom: 0.75rem;
     font-size: 1.25rem;
 }
 
 .about-card p {
-    color: #666;
+    color: var(--color-text-light);
 }
 
 /* Process Section */
 .process {
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
 }
 
 .process-steps {
@@ -222,7 +240,7 @@ section {
 .step-number {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #c8102e, #8b0000);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
     color: white;
     border-radius: 50%;
     display: flex;
@@ -234,12 +252,12 @@ section {
 }
 
 .step h3 {
-    color: #c8102e;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
 }
 
 .step p {
-    color: #666;
+    color: var(--color-text-light);
     font-size: 0.875rem;
 }
 
@@ -247,7 +265,7 @@ section {
 .contact-subtitle {
     text-align: center;
     font-size: 1.125rem;
-    color: #666;
+    color: var(--color-text-light);
     margin-bottom: 3rem;
 }
 
@@ -260,7 +278,7 @@ section {
 }
 
 .contact-info h3 {
-    color: #c8102e;
+    color: var(--color-primary);
     margin-bottom: 1.5rem;
     font-size: 1.375rem;
 }
@@ -268,31 +286,31 @@ section {
 .info-item {
     margin-bottom: 1rem;
     padding: 0.75rem;
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
     border-radius: 5px;
 }
 
 .info-item strong {
-    color: #c8102e;
+    color: var(--color-primary);
 }
 
 .info-item a {
-    color: #333;
+    color: var(--color-text);
     text-decoration: none;
 }
 
 .info-item a:hover {
-    color: #c8102e;
+    color: var(--color-primary);
 }
 
 .contact-form-container h3 {
-    color: #c8102e;
+    color: var(--color-primary);
     margin-bottom: 1.5rem;
     font-size: 1.375rem;
 }
 
 .contact-form {
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-light);
     padding: 2rem;
     border-radius: 10px;
 }
@@ -304,7 +322,7 @@ section {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: var(--color-text);
     font-weight: 500;
 }
 
@@ -324,11 +342,11 @@ section {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #c8102e;
+    border-color: var(--color-primary);
 }
 
 .submit-button {
-    background-color: #c8102e;
+    background-color: var(--color-primary);
     color: white;
     padding: 0.875rem 2rem;
     border: none;
@@ -341,7 +359,7 @@ section {
 }
 
 .submit-button:hover {
-    background-color: #8b0000;
+    background-color: var(--color-primary-dark);
     transform: translateY(-2px);
 }
 
@@ -376,8 +394,20 @@ section {
 
 .footer-note {
     margin-top: 0.5rem;
-    color: #ffde00;
+    color: var(--color-accent);
     font-style: italic;
+}
+
+/* Animation on Scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Responsive Design */
