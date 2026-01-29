@@ -87,7 +87,7 @@ const translations = {
         "contact.form.success": "Thank you for your inquiry! Our team will contact you within 24 hours.",
         
         // Footer
-        "footer.copyright": "SINODREAM. All rights reserved.",
+        "footer.copyright": "All rights reserved.",
         "footer.note": "Professional · Honest · Efficient · Caring"
     },
     
@@ -178,7 +178,7 @@ const translations = {
         "contact.form.success": "感谢您的咨询！我们的团队将在24小时内与您联系。",
         
         // Footer
-        "footer.copyright": "SINODREAM. 保留所有权利。",
+        "footer.copyright": "保留所有权利。",
         "footer.note": "专业 · 诚信 · 高效 · 贴心"
     },
     
@@ -269,7 +269,7 @@ const translations = {
         "contact.form.success": "¡Gracias por su consulta! Nuestro equipo se pondrá en contacto con usted dentro de 24 horas.",
         
         // Footer
-        "footer.copyright": "SINODREAM. Todos los derechos reservados.",
+        "footer.copyright": "Todos los derechos reservados.",
         "footer.note": "Profesional · Honesto · Eficiente · Atento"
     },
     
@@ -360,7 +360,7 @@ const translations = {
         "contact.form.success": "Merci pour votre demande! Notre équipe vous contactera dans les 24 heures.",
         
         // Footer
-        "footer.copyright": "SINODREAM. Tous droits réservés.",
+        "footer.copyright": "Tous droits réservés.",
         "footer.note": "Professionnel · Honnête · Efficace · Attentionné"
     },
     
@@ -451,7 +451,7 @@ const translations = {
         "contact.form.success": "شكراً لاستفسارك! سيتواصل معك فريقنا خلال 24 ساعة.",
         
         // Footer
-        "footer.copyright": "SINODREAM. جميع الحقوق محفوظة.",
+        "footer.copyright": "جميع الحقوق محفوظة.",
         "footer.note": "محترف · صادق · فعال · مهتم"
     },
     
@@ -542,7 +542,7 @@ const translations = {
         "contact.form.success": "Спасибо за ваш запрос! Наша команда свяжется с вами в течение 24 часов.",
         
         // Footer
-        "footer.copyright": "SINODREAM. Все права защищены.",
+        "footer.copyright": "Все права защищены.",
         "footer.note": "Профессионально · Честно · Эффективно · Заботливо"
     },
     
@@ -633,7 +633,7 @@ const translations = {
         "contact.form.success": "お問い合わせありがとうございます！24時間以内にチームがご連絡いたします。",
         
         // Footer
-        "footer.copyright": "SINODREAM. 全著作権所有。",
+        "footer.copyright": "全著作権所有。",
         "footer.note": "専門的 · 誠実 · 効率的 · 思いやり"
     }
 };

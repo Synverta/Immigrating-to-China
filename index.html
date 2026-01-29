@@ -22,18 +22,18 @@
                 <a href="#process" data-i18n="nav.process">Process</a>
                 <a href="#contact" data-i18n="nav.contact">Contact</a>
                 <div class="language-selector">
-                    <button id="langToggle" class="lang-toggle" aria-label="Select Language">
+                    <button id="langToggle" class="lang-toggle" aria-label="Select Language" aria-haspopup="true" aria-expanded="false">
                         <span id="currentLang">English</span>
                         <span class="lang-arrow">▼</span>
                     </button>
-                    <div id="langDropdown" class="lang-dropdown">
-                        <a href="#" class="lang-option active" data-lang="en">English</a>
-                        <a href="#" class="lang-option" data-lang="zh">中文</a>
-                        <a href="#" class="lang-option" data-lang="es">Español</a>
-                        <a href="#" class="lang-option" data-lang="fr">Français</a>
-                        <a href="#" class="lang-option" data-lang="ar">العربية</a>
-                        <a href="#" class="lang-option" data-lang="ru">Русский</a>
-                        <a href="#" class="lang-option" data-lang="ja">日本語</a>
+                    <div id="langDropdown" class="lang-dropdown" role="menu">
+                        <a href="#" class="lang-option active" data-lang="en" role="menuitem">English</a>
+                        <a href="#" class="lang-option" data-lang="zh" role="menuitem">中文</a>
+                        <a href="#" class="lang-option" data-lang="es" role="menuitem">Español</a>
+                        <a href="#" class="lang-option" data-lang="fr" role="menuitem">Français</a>
+                        <a href="#" class="lang-option" data-lang="ar" role="menuitem">العربية</a>
+                        <a href="#" class="lang-option" data-lang="ru" role="menuitem">Русский</a>
+                        <a href="#" class="lang-option" data-lang="ja" role="menuitem">日本語</a>
                     </div>
                 </div>
             </nav>
@@ -161,19 +161,19 @@
                 <div class="contact-info">
                     <h3 data-i18n="contact.info.title">Contact Information</h3>
                     <div class="info-item">
-                        <strong data-i18n="contact.info.email">📧 Email:</strong>
+                        <strong>📧 <span data-i18n="contact.info.email">Email:</span></strong>
                         <a href="mailto:info@sinodream.com">info@sinodream.com</a>
                     </div>
                     <div class="info-item">
-                        <strong data-i18n="contact.info.phone">📱 Phone:</strong>
+                        <strong>📱 <span data-i18n="contact.info.phone">Phone:</span></strong>
                         <a href="tel:+8621-12345678">+86 21-1234-5678</a>
                     </div>
                     <div class="info-item">
-                        <strong data-i18n="contact.info.wechat">💬 WeChat:</strong>
+                        <strong>💬 <span data-i18n="contact.info.wechat">WeChat:</span></strong>
                         SINODREAM2024
                     </div>
                     <div class="info-item">
-                        <strong data-i18n="contact.info.hours">🕐 Business Hours:</strong>
+                        <strong>🕐 <span data-i18n="contact.info.hours">Business Hours:</span></strong>
                         <span data-i18n="contact.info.hours.value">Monday to Friday 9:00-18:00</span>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> <span data-i18n="footer.copyright">SINODREAM. All rights reserved.</span></p>
+            <p>&copy; <span id="currentYear"></span> SINODREAM. <span data-i18n="footer.copyright">All rights reserved.</span></p>
             <p class="footer-note" data-i18n="footer.note">Professional · Honest · Efficient · Caring</p>
         </div>
     </footer>

@@ -47,11 +47,11 @@ class I18n {
         // Update HTML lang attribute
         document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
         
-        // Update meta tags
-        this.updateMetaTags();
-        
-        // Update active language in selector
-        this.updateLanguageSelector();
+        // Update meta tags (only if DOM is ready)
+        if (document.readyState !== 'loading') {
+            this.updateMetaTags();
+            this.updateLanguageSelector();
+        }
         
         // Update text direction for RTL languages
         if (lang === 'ar') {
@@ -89,16 +89,8 @@ class I18n {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (t[key]) {
-                // Handle different element types
-                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                    if (element.hasAttribute('placeholder')) {
-                        // For placeholders in inputs/textareas - not currently used
-                    } else {
-                        element.value = t[key];
-                    }
-                } else if (element.tagName === 'OPTION') {
-                    element.textContent = t[key];
-                } else {
+                // Only update textContent for non-input elements
+                if (element.tagName !== 'INPUT' && element.tagName !== 'TEXTAREA') {
                     element.textContent = t[key];
                 }
             }
@@ -109,14 +101,6 @@ class I18n {
             const key = element.getAttribute('data-i18n-placeholder');
             if (t[key]) {
                 element.setAttribute('placeholder', t[key]);
-            }
-        });
-        
-        // Update form labels
-        document.querySelectorAll('label[data-i18n]').forEach(label => {
-            const key = label.getAttribute('data-i18n');
-            if (t[key]) {
-                label.textContent = t[key];
             }
         });
     }
@@ -158,9 +142,13 @@ class I18n {
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', () => {
                 this.setupLanguageSelector();
+                this.updateMetaTags();
+                this.updateLanguageSelector();
             });
         } else {
             this.setupLanguageSelector();
+            this.updateMetaTags();
+            this.updateLanguageSelector();
         }
     }
     
@@ -172,12 +160,25 @@ class I18n {
             // Toggle dropdown on click
             langToggle.addEventListener('click', (e) => {
                 e.stopPropagation();
+                const isExpanded = langDropdown.classList.contains('show');
                 langDropdown.classList.toggle('show');
+                langToggle.setAttribute('aria-expanded', !isExpanded);
+            });
+            
+            // Keyboard support for toggle button
+            langToggle.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const isExpanded = langDropdown.classList.contains('show');
+                    langDropdown.classList.toggle('show');
+                    langToggle.setAttribute('aria-expanded', !isExpanded);
+                }
             });
             
             // Close dropdown when clicking outside
             document.addEventListener('click', () => {
                 langDropdown.classList.remove('show');
+                langToggle.setAttribute('aria-expanded', 'false');
             });
             
             // Prevent dropdown from closing when clicking inside
@@ -195,6 +196,27 @@ class I18n {
                     this.setLanguage(lang);
                     if (langDropdown) {
                         langDropdown.classList.remove('show');
+                        if (langToggle) {
+                            langToggle.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                }
+            });
+            
+            // Keyboard support for language options
+            option.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    const lang = option.getAttribute('data-lang');
+                    if (lang && lang !== this.currentLanguage) {
+                        this.setLanguage(lang);
+                        if (langDropdown) {
+                            langDropdown.classList.remove('show');
+                            if (langToggle) {
+                                langToggle.setAttribute('aria-expanded', 'false');
+                                langToggle.focus();
+                            }
+                        }
                     }
                 }
             });
