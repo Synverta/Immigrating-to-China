@@ -52,7 +52,7 @@ body {
     align-items: center;
 }
 
-.logo h1 {
+.logo h1, .logo .logo-text {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0.25rem;
@@ -163,7 +163,7 @@ body {
     margin: 0 auto;
 }
 
-.hero h2 {
+.hero h1, .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     color: var(--color-primary);
@@ -512,7 +512,7 @@ section {
         transform: translateX(-50%);
     }
     
-    .hero h2 {
+    .hero h1, .hero h2 {
         font-size: 1.75rem;
     }
     
@@ -538,7 +538,7 @@ section {
 }
 
 @media (max-width: 480px) {
-    .hero h2 {
+    .hero h1, .hero h2 {
         font-size: 1.5rem;
     }
     
