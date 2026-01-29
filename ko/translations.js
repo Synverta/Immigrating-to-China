@@ -13,8 +13,6 @@ const translations = {
         "nav.about": "About Us",
         "nav.process": "Process",
         "nav.contact": "Contact",
-        "nav.case": "Case",
-        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Professional China Immigration Consulting Services",
@@ -106,8 +104,6 @@ const translations = {
         "nav.about": "关于我们",
         "nav.process": "办理流程",
         "nav.contact": "联系我们",
-        "nav.case": "案例",
-        "nav.blog": "博客",
         
         // Hero Section
         "hero.title": "专业的中国移民咨询服务",
@@ -199,8 +195,6 @@ const translations = {
         "nav.about": "Sobre Nosotros",
         "nav.process": "Proceso",
         "nav.contact": "Contacto",
-        "nav.case": "Caso",
-        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Servicios Profesionales de Consultoría de Inmigración a China",
@@ -292,8 +286,6 @@ const translations = {
         "nav.about": "À Propos",
         "nav.process": "Processus",
         "nav.contact": "Contact",
-        "nav.case": "Cas",
-        "nav.blog": "Blog",
         
         // Hero Section
         "hero.title": "Services Professionnels de Conseil en Immigration en Chine",
@@ -385,8 +377,6 @@ const translations = {
         "nav.about": "من نحن",
         "nav.process": "الإجراءات",
         "nav.contact": "اتصل بنا",
-        "nav.case": "الحالة",
-        "nav.blog": "المدونة",
         
         // Hero Section
         "hero.title": "خدمات استشارات الهجرة المهنية إلى الصين",
@@ -478,8 +468,6 @@ const translations = {
         "nav.about": "О Нас",
         "nav.process": "Процесс",
         "nav.contact": "Контакты",
-        "nav.case": "Кейсы",
-        "nav.blog": "Блог",
         
         // Hero Section
         "hero.title": "Профессиональные консультационные услуги по иммиграции в Китай",
@@ -558,285 +546,6 @@ const translations = {
         "footer.note": "Профессионально · Честно · Эффективно · Заботливо"
     },
     
-    ja: {
-        // Meta
-        "meta.description": "SINODREAM - 専門的な中国移民コンサルティング機関、海外の方々が中国へスムーズに移民するのを支援します",
-        "meta.keywords": "中国移民, 移民コンサルティング, SINODREAM, 海外の方々, 中国ビザ, 中国居留",
-        "meta.title": "SINODREAM - 専門的な中国移民コンサルティング",
-        
-        // Header
-        "header.logo": "SINODREAM",
-        "header.tagline": "中国の夢を実現",
-        "nav.services": "サービス",
-        "nav.about": "会社概要",
-        "nav.process": "プロセス",
-        "nav.contact": "お問い合わせ",
-        "nav.case": "ケース",
-        "nav.blog": "ブログ",
-        
-        // Hero Section
-        "hero.title": "専門的な中国移民コンサルティングサービス",
-        "hero.subtitle": "中国での新生活をスムーズに始めるお手伝い",
-        "hero.description": "SINODREAMは、海外の方々が中国への移民の夢を実現するのを支援する専門的な移民コンサルティング機関です。ビザ申請から居留許可まで、包括的な移民コンサルティングサービスを提供し、移民の道のりをスムーズで手間のかからないものにします。",
-        "hero.cta": "無料相談",
-        
-        // Services Section
-        "services.title": "サービス内容",
-        "services.work.title": "就労ビザ",
-        "services.work.description": "中国就労ビザ（Zビザ）および就労許可の取得を支援し、中国での就労を全面的にサポートします。",
-        "services.permanent.title": "永住権",
-        "services.permanent.description": "中国永住権（グリーンカード）申請の専門的な指導、長期居留権の享受。",
-        "services.family.title": "家族再会",
-        "services.family.description": "家族のための扶養ビザと居留許可の手続き、家族全員が中国で再会できるようにします。",
-        "services.study.title": "留学ビザ",
-        "services.study.description": "留学ビザ（Xビザ）の申請を支援し、中国での教育を容易にします。",
-        "services.business.title": "ビジネスビザ",
-        "services.business.description": "ビジネスビザ（Mビザ）の迅速な手続き、中国でのビジネス活動に便利です。",
-        "services.extension.title": "居留延長",
-        "services.extension.description": "居留許可延長サービスを提供し、中国での合法的な居留資格が途切れないようにします。",
-        
-        // About Section
-        "about.title": "選ばれる理由",
-        "about.professional.title": "✓ 専門チーム",
-        "about.professional.description": "中国の移民政策と規則に精通したベテラン移民コンサルタントと法律専門家がいます。",
-        "about.success.title": "✓ 高い成功率",
-        "about.success.description": "長年の経験の蓄積、数百人のクライアントが中国への移民の夢を実現するのを成功裏に支援してきました。",
-        "about.service.title": "✓ フルサービス",
-        "about.service.description": "相談・評価からビザ承認まで、ワンストップサービスを提供し、処理の進捗を常に追跡します。",
-        "about.integrity.title": "✓ 誠実さと透明性",
-        "about.integrity.description": "透明で合理的な料金、隠れた料金なし、誠実なビジネスが顧客の信頼を獲得します。",
-        
-        // Process Section
-        "process.title": "申請プロセス",
-        "process.step1.title": "無料相談",
-        "process.step1.description": "無料相談のためにお問い合わせください。移民のニーズと資格を評価します。",
-        "process.step2.title": "カスタマイズプラン",
-        "process.step2.description": "お客様の具体的な状況に基づいて、個別の移民計画を策定します。",
-        "process.step3.title": "書類準備",
-        "process.step3.description": "必要な書類の準備を指導し、すべてのファイルが完全で要件を満たしていることを確認します。",
-        "process.step4.title": "申請提出",
-        "process.step4.description": "お客様に代わって申請書類を提出し、処理の進捗を追跡します。",
-        "process.step5.title": "承認成功",
-        "process.step5.description": "ビザまたは居留許可を取得し、中国での新生活を始めます。",
-        
-        // Contact Section
-        "contact.title": "お問い合わせ",
-        "contact.subtitle": "今すぐお問い合わせください。移民の旅を始めましょう",
-        "contact.info.title": "連絡先情報",
-        "contact.info.email": "メール:",
-        "contact.info.phone": "電話:",
-        "contact.info.wechat": "WeChat:",
-        "contact.info.hours": "営業時間:",
-        "contact.info.hours.value": "月曜日から金曜日 9:00-18:00",
-        "contact.form.title": "オンライン相談",
-        "contact.form.name": "お名前 *",
-        "contact.form.email": "メール *",
-        "contact.form.phone": "電話",
-        "contact.form.service": "興味のあるサービス",
-        "contact.form.service.placeholder": "選択してください",
-        "contact.form.service.work": "就労ビザ",
-        "contact.form.service.permanent": "永住権",
-        "contact.form.service.family": "家族再会",
-        "contact.form.service.study": "留学ビザ",
-        "contact.form.service.business": "ビジネスビザ",
-        "contact.form.service.extension": "居留延長",
-        "contact.form.service.other": "その他",
-        "contact.form.message": "メッセージ *",
-        "contact.form.submit": "お問い合わせを送信",
-        "contact.form.submitting": "送信中...",
-        "contact.form.success": "お問い合わせありがとうございます！24時間以内にチームがご連絡いたします。",
-        
-        // Footer
-        "footer.copyright": "全著作権所有。",
-        "footer.note": "専門的 · 誠実 · 効率的 · 思いやり"
-    },
-    
-    vi: {
-        // Meta
-        "meta.description": "SINODREAM - Công ty Tư vấn Di trú Trung Quốc Chuyên nghiệp, giúp người nước ngoài di cư đến Trung Quốc thuận lợi",
-        "meta.keywords": "di trú Trung Quốc, tư vấn di trú, SINODREAM, người nước ngoài, visa Trung Quốc, cư trú Trung Quốc",
-        "meta.title": "SINODREAM - Tư vấn Di trú Trung Quốc Chuyên nghiệp",
-        
-        // Header
-        "header.logo": "SINODREAM",
-        "header.tagline": "Biến Giấc mơ Trung Quốc của Bạn Thành Hiện thực",
-        "nav.services": "Dịch vụ",
-        "nav.about": "Về Chúng tôi",
-        "nav.process": "Quy trình",
-        "nav.contact": "Liên hệ",
-        "nav.case": "Trường hợp",
-        "nav.blog": "Blog",
-        
-        // Hero Section
-        "hero.title": "Dịch vụ Tư vấn Di trú Trung Quốc Chuyên nghiệp",
-        "hero.subtitle": "Giúp Bạn Bắt đầu Cuộc sống Mới tại Trung Quốc một cách Thuận lợi",
-        "hero.description": "SINODREAM là công ty tư vấn di trú chuyên nghiệp, tận tâm giúp đỡ người nước ngoài thực hiện ước mơ di cư đến Trung Quốc. Chúng tôi cung cấp dịch vụ tư vấn di trú toàn diện, từ đơn xin visa đến giấy phép cư trú, làm cho hành trình di cư của bạn suôn sẻ và không gặp rắc rối.",
-        "hero.cta": "Tư vấn Miễn phí",
-        
-        // Services Section
-        "services.title": "Dịch vụ của Chúng tôi",
-        "services.work.title": "Visa Lao động",
-        "services.work.description": "Hỗ trợ xin visa lao động Trung Quốc (visa Z) và giấy phép lao động, cung cấp hỗ trợ toàn diện cho công việc của bạn tại Trung Quốc.",
-        "services.permanent.title": "Thường trú nhân",
-        "services.permanent.description": "Hướng dẫn chuyên nghiệp để nộp đơn xin tư cách thường trú nhân Trung Quốc (thẻ xanh), hưởng quyền cư trú dài hạn.",
-        "services.family.title": "Đoàn tụ Gia đình",
-        "services.family.description": "Xử lý visa phụ thuộc gia đình và giấy phép cư trú, cho phép cả gia đình bạn đoàn tụ tại Trung Quốc.",
-        "services.study.title": "Visa Du học",
-        "services.study.description": "Hỗ trợ nộp đơn xin visa du học (visa X), tạo điều kiện cho việc học tập của bạn tại Trung Quốc.",
-        "services.business.title": "Visa Kinh doanh",
-        "services.business.description": "Xử lý nhanh visa kinh doanh (visa M), thuận tiện cho các hoạt động kinh doanh của bạn tại Trung Quốc.",
-        "services.extension.title": "Gia hạn Cư trú",
-        "services.extension.description": "Cung cấp dịch vụ gia hạn giấy phép cư trú, đảm bảo tình trạng cư trú hợp pháp của bạn tại Trung Quốc không bị gián đoạn.",
-        
-        // About Section
-        "about.title": "Tại sao Chọn Chúng tôi",
-        "about.professional.title": "✓ Đội ngũ Chuyên nghiệp",
-        "about.professional.description": "Chúng tôi có các chuyên gia tư vấn di trú cao cấp và chuyên gia pháp lý am hiểu chính sách và quy định di trú của Trung Quốc.",
-        "about.success.title": "✓ Tỷ lệ Thành công Cao",
-        "about.success.description": "Nhiều năm kinh nghiệm tích lũy, thành công giúp đỡ hàng trăm khách hàng thực hiện ước mơ di cư đến Trung Quốc.",
-        "about.service.title": "✓ Dịch vụ Đầy đủ",
-        "about.service.description": "Từ tư vấn và đánh giá đến phê duyệt visa, chúng tôi cung cấp dịch vụ một cửa và theo dõi tiến trình xử lý trong suốt quá trình.",
-        "about.integrity.title": "✓ Trung thực và Minh bạch",
-        "about.integrity.description": "Chi phí minh bạch và hợp lý, không có phí ẩn, kinh doanh trung thực giành được lòng tin của khách hàng.",
-        
-        // Process Section
-        "process.title": "Quy trình Nộp đơn",
-        "process.step1.title": "Tư vấn Miễn phí",
-        "process.step1.description": "Liên hệ với chúng tôi để được tư vấn miễn phí nhằm đánh giá nhu cầu di trú và điều kiện đủ tiêu chuẩn của bạn.",
-        "process.step2.title": "Kế hoạch Tùy chỉnh",
-        "process.step2.description": "Dựa trên tình hình cụ thể của bạn, chúng tôi xây dựng kế hoạch di trú cá nhân hóa.",
-        "process.step3.title": "Chuẩn bị Tài liệu",
-        "process.step3.description": "Hướng dẫn bạn chuẩn bị các tài liệu cần thiết, đảm bảo tất cả các tệp hoàn chỉnh và đáp ứng yêu cầu.",
-        "process.step4.title": "Nộp Đơn",
-        "process.step4.description": "Nộp tài liệu đơn thay mặt bạn và theo dõi tiến trình xử lý.",
-        "process.step5.title": "Phê duyệt Thành công",
-        "process.step5.description": "Nhận visa hoặc giấy phép cư trú, và bắt đầu cuộc sống mới của bạn tại Trung Quốc.",
-        
-        // Contact Section
-        "contact.title": "Liên hệ với Chúng tôi",
-        "contact.subtitle": "Liên hệ với chúng tôi ngay bây giờ và bắt đầu hành trình di cư của bạn",
-        "contact.info.title": "Thông tin Liên hệ",
-        "contact.info.email": "Email:",
-        "contact.info.phone": "Điện thoại:",
-        "contact.info.wechat": "WeChat:",
-        "contact.info.hours": "Giờ Làm việc:",
-        "contact.info.hours.value": "Thứ Hai đến Thứ Sáu 9:00-18:00",
-        "contact.form.title": "Tư vấn Trực tuyến",
-        "contact.form.name": "Tên *",
-        "contact.form.email": "Email *",
-        "contact.form.phone": "Điện thoại",
-        "contact.form.service": "Dịch vụ Quan tâm",
-        "contact.form.service.placeholder": "Vui lòng chọn",
-        "contact.form.service.work": "Visa Lao động",
-        "contact.form.service.permanent": "Thường trú nhân",
-        "contact.form.service.family": "Đoàn tụ Gia đình",
-        "contact.form.service.study": "Visa Du học",
-        "contact.form.service.business": "Visa Kinh doanh",
-        "contact.form.service.extension": "Gia hạn Cư trú",
-        "contact.form.service.other": "Khác",
-        "contact.form.message": "Tin nhắn *",
-        "contact.form.submit": "Gửi Yêu cầu",
-        "contact.form.submitting": "Đang gửi...",
-        "contact.form.success": "Cảm ơn bạn đã liên hệ! Đội ngũ của chúng tôi sẽ liên hệ với bạn trong vòng 24 giờ.",
-        
-        // Footer
-        "footer.copyright": "Bảo lưu mọi quyền.",
-        "footer.note": "Chuyên nghiệp · Trung thực · Hiệu quả · Chu đáo"
-    },
-    
-    th: {
-        // Meta
-        "meta.description": "SINODREAM - บริษัทที่ปรึกษาการย้ายถิ่นไปจีนมืออาชีพ ช่วยเหลือคนต่างชาติย้ายถิ่นไปจีนอย่างราบรื่น",
-        "meta.keywords": "การย้ายถิ่นไปจีน, ที่ปรึกษาการย้ายถิ่น, SINODREAM, คนต่างชาติ, วีซ่าจีน, การพำนักในจีน",
-        "meta.title": "SINODREAM - ที่ปรึกษาการย้ายถิ่นไปจีนมืออาชีพ",
-        
-        // Header
-        "header.logo": "SINODREAM",
-        "header.tagline": "ทำให้ความฝันจีนของคุณเป็นจริง",
-        "nav.services": "บริการ",
-        "nav.about": "เกี่ยวกับเรา",
-        "nav.process": "ขั้นตอน",
-        "nav.contact": "ติดต่อ",
-        "nav.case": "กรณีศึกษา",
-        "nav.blog": "บล็อก",
-        
-        // Hero Section
-        "hero.title": "บริการให้คำปรึกษาการย้ายถิ่นไปจีนอย่างมืออาชีพ",
-        "hero.subtitle": "ช่วยคุณเริ่มต้นชีวิตใหม่ในจีนอย่างราบรื่น",
-        "hero.description": "SINODREAM เป็นบริษัทที่ปรึกษาการย้ายถิ่นมืออาชีพ มุ่งมั่นช่วยเหลือคนต่างชาติให้ความฝันในการย้ายถิ่นไปจีนเป็นจริง เรามีบริการให้คำปรึกษาการย้ายถิ่นแบบครบวงจร ตั้งแต่การยื่นขอวีซ่าไปจนถึงใบอนุญาตพำนัก ทำให้การเดินทางย้ายถิ่นของคุณราบรื่นและไร้กังวล",
-        "hero.cta": "ปรึกษาฟรี",
-        
-        // Services Section
-        "services.title": "บริการของเรา",
-        "services.work.title": "วีซ่าทำงาน",
-        "services.work.description": "ช่วยเหลือในการขอวีซ่าทำงานในจีน (วีซ่า Z) และใบอนุญาตทำงาน ให้การสนับสนุนอย่างเต็มที่สำหรับการทำงานของคุณในจีน",
-        "services.permanent.title": "การพำนักถาวร",
-        "services.permanent.description": "คำแนะนำอย่างมืออาชีพในการสมัครขอสถานะการพำนักถาวรในจีน (บัตรเขียว) เพลิดเพลินกับสิทธิ์การพำนักระยะยาว",
-        "services.family.title": "การรวมครอบครัว",
-        "services.family.description": "ดำเนินการวีซ่าสำหรับครอบครัวและใบอนุญาตพำนัก ให้ครอบครัวของคุณได้อยู่รวมกันในจีน",
-        "services.study.title": "วีซ่าเรียน",
-        "services.study.description": "ช่วยเหลือในการยื่นขอวีซ่าเรียน (วีซ่า X) อำนวยความสะดวกในการศึกษาของคุณในจีน",
-        "services.business.title": "วีซ่าธุรกิจ",
-        "services.business.description": "ดำเนินการวีซ่าธุรกิจอย่างรวดเร็ว (วีซ่า M) สะดวกสำหรับกิจกรรมทางธุรกิจของคุณในจีน",
-        "services.extension.title": "การต่ออายุการพำนัก",
-        "services.extension.description": "ให้บริการต่ออายุใบอนุญาตพำนัก รับประกันว่าสถานะการพำนักตามกฎหมายของคุณในจีนจะไม่ถูกขัดจังหวะ",
-        
-        // About Section
-        "about.title": "ทำไมต้องเลือกเรา",
-        "about.professional.title": "✓ ทีมงานมืออาชีพ",
-        "about.professional.description": "เรามีที่ปรึกษาการย้ายถิ่นอาวุโสและผู้เชี่ยวชาญด้านกฎหมายที่มีความรู้ลึกซึ้งเกี่ยวกับนโยบายและข้อบังคับการย้ายถิ่นของจีน",
-        "about.success.title": "✓ อัตราความสำเร็จสูง",
-        "about.success.description": "ประสบการณ์หลายปีที่สะสมมา ช่วยเหลือลูกค้าหลายร้อยคนให้ความฝันในการย้ายถิ่นไปจีนเป็นจริงอย่างประสบความสำเร็จ",
-        "about.service.title": "✓ บริการครบวงจร",
-        "about.service.description": "ตั้งแต่การให้คำปรึกษาและการประเมินไปจนถึงการอนุมัติวีซ่า เราให้บริการแบบครบวงจรและติดตามความคืบหน้าตลอดกระบวนการ",
-        "about.integrity.title": "✓ ความซื่อสัตย์และความโปร่งใส",
-        "about.integrity.description": "ค่าธรรมเนียมโปร่งใสและสมเหตุสมผล ไม่มีค่าใช้จ่ายที่ซ่อนเร้น การดำเนินธุรกิจด้วยความซื่อสัตย์ได้รับความไว้วางใจจากลูกค้า",
-        
-        // Process Section
-        "process.title": "ขั้นตอนการสมัคร",
-        "process.step1.title": "ปรึกษาฟรี",
-        "process.step1.description": "ติดต่อเราเพื่อรับคำปรึกษาฟรีเพื่อประเมินความต้องการและคุณสมบัติในการย้ายถิ่นของคุณ",
-        "process.step2.title": "แผนที่กำหนดเอง",
-        "process.step2.description": "โดยอิงจากสถานการณ์เฉพาะของคุณ เราจะพัฒนาแผนการย้ายถิ่นที่เหมาะกับคุณ",
-        "process.step3.title": "เตรียมเอกสาร",
-        "process.step3.description": "แนะนำคุณในการเตรียมเอกสารที่จำเป็น ให้แน่ใจว่าไฟล์ทั้งหมดครบถ้วนและตรงตามข้อกำหนด",
-        "process.step4.title": "ยื่นใบสมัคร",
-        "process.step4.description": "ยื่นเอกสารสมัครในนามของคุณและติดตามความคืบหน้าในการดำเนินการ",
-        "process.step5.title": "การอนุมัติที่ประสบความสำเร็จ",
-        "process.step5.description": "รับวีซ่าหรือใบอนุญาตพำนัก และเริ่มต้นชีวิตใหม่ของคุณในจีน",
-        
-        // Contact Section
-        "contact.title": "ติดต่อเรา",
-        "contact.subtitle": "ติดต่อเราตอนนี้และเริ่มต้นการเดินทางย้ายถิ่นของคุณ",
-        "contact.info.title": "ข้อมูลการติดต่อ",
-        "contact.info.email": "อีเมล:",
-        "contact.info.phone": "โทรศัพท์:",
-        "contact.info.wechat": "WeChat:",
-        "contact.info.hours": "เวลาทำการ:",
-        "contact.info.hours.value": "จันทร์ถึงศุกร์ 9:00-18:00",
-        "contact.form.title": "ปรึกษาออนไลน์",
-        "contact.form.name": "ชื่อ *",
-        "contact.form.email": "อีเมล *",
-        "contact.form.phone": "โทรศัพท์",
-        "contact.form.service": "บริการที่สนใจ",
-        "contact.form.service.placeholder": "กรุณาเลือก",
-        "contact.form.service.work": "วีซ่าทำงาน",
-        "contact.form.service.permanent": "การพำนักถาวร",
-        "contact.form.service.family": "การรวมครอบครัว",
-        "contact.form.service.study": "วีซ่าเรียน",
-        "contact.form.service.business": "วีซ่าธุรกิจ",
-        "contact.form.service.extension": "การต่ออายุการพำนัก",
-        "contact.form.service.other": "อื่นๆ",
-        "contact.form.message": "ข้อความ *",
-        "contact.form.submit": "ส่งคำถาม",
-        "contact.form.submitting": "กำลังส่ง...",
-        "contact.form.success": "ขอบคุณที่ติดต่อเรา! ทีมของเราจะติดต่อคุณภายใน 24 ชั่วโมง",
-        
-        // Footer
-        "footer.copyright": "สงวนลิขสิทธิ์",
-        "footer.note": "มืออาชีพ · ซื่อสัตย์ · มีประสิทธิภาพ · ใส่ใจ"
-    },
-    
     ko: {
         // Meta
         "meta.description": "SINODREAM - 전문 중국 이민 컨설팅 기관, 외국인의 중국 이민을 원활하게 지원합니다",
@@ -850,8 +559,6 @@ const translations = {
         "nav.about": "회사 소개",
         "nav.process": "절차",
         "nav.contact": "연락처",
-        "nav.case": "사례",
-        "nav.blog": "블로그",
         
         // Hero Section
         "hero.title": "전문 중국 이민 컨설팅 서비스",
