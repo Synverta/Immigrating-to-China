@@ -186,11 +186,16 @@ body {
     position: absolute;
     left: 0.5rem;
     font-weight: bold;
+    transition: left 0.2s;
 }
 
 .language-selector .lang-option.active:hover {
     background-color: var(--color-primary-dark);
     padding-left: 1.8rem;
+}
+
+.language-selector .lang-option.active:hover::before {
+    left: 0.7rem;
 }
 
 /* Hero Section */
